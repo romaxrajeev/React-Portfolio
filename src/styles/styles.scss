@@ -1,0 +1,122 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;500;400;700&display=swap');
+$background: #f2f2f2;
+$black: #000;
+$white: #fff;
+$maroon: #4d0000;
+$font: 'Montserrat';
+
+body{
+    background-color: $background !important;
+    font-family: $font;
+}
+
+.nav-item{
+    font-weight: 400;
+    font-size: 1.15em;
+    padding-left: 108px;
+}
+
+.panel{
+    border-radius: 50px;
+    background-color: $background;
+    box-shadow: 5px 5px 10px rgba($color: $black, $alpha: 0.10),
+                -5px -5px 10px rgba($color: $white, $alpha: 1.0);
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    align-items: center;
+    img{
+        margin: auto;
+    }
+}
+
+.header-text{
+    font-family: $font;
+    font-weight: 700;
+    font-size: 1.85em;
+    margin-top: 25%;
+    color: $maroon;
+}
+
+.slide-up{
+    font-family: $font;
+    font-size: 1.15em;
+    font-weight: 300;
+}
+
+.my-work{
+    border-radius: 15px !important;
+    font-weight: 500;
+    color: $white;
+    font-family: $font;
+    background-color: $maroon;
+    font-size: 1.25em;
+}
+
+.works-text{
+    text-align: center;
+    color: $maroon;
+    font-family: $font;
+    font-weight: 400 !important;
+    font-size: 1.15em;
+}
+
+.card{
+    background-color: transparent !important;
+    border: none !important;
+    border-radius: 50px !important;
+}
+
+.review-text{
+    font-family: $font;
+    font-weight: 400;
+    font-size: 1.3em;
+    color: $maroon;
+    justify-content: center;
+}
+
+.neumorphinner{
+    input,textarea{
+        background: none;
+        border: none;
+        outline: none;
+        width: 100%;
+        color: $maroon;
+    }
+    border-radius: 15px;
+    padding: 10px 20px;
+    padding-top: 10px;
+    box-shadow: inset 5px 5px 4px 0 rgba($color: $black, $alpha: 0.2),
+                inset -5px -5px 4px 0 rgba($color: $white, $alpha: 1.0);
+}
+
+.contact-header{
+    font-family: $font;
+    font-size: 1.2em;
+    color: $maroon;
+    font-weight: 700;
+    justify-self: center;
+}
+
+label{
+    font-weight: 400;
+    font-size: 1.05em;
+    color: $maroon;
+    font-family: $font;
+}
+
+.reviews{
+    font-family: $font;
+    font-weight: 400;
+    font-size: 1.2em;
+}
+
+.review-author{
+    font-family: $font;
+    font-weight: 300;
+    font-size: 1em;
+}
+
+.container-fluid{
+    background-color: $maroon;
+}
