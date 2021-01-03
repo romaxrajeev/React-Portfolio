@@ -7,7 +7,7 @@ import { faFacebook, faInstagram, faLinkedin, faTwitter } from '@fortawesome/fre
 function FooterComponent() {
     return(
         <React.Fragment>
-            <div className="container-fluid mt-5" style={{bottom:"0"}}>
+            <div className="container-fluid mt-5">
                 <Container>
                     <Row className="pt-4 pb-4">
                         <Col xs="12" md="6" className="text-center" style={{color: "#fff", fontSize: "1.1em"}}>

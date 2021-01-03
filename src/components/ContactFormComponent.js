@@ -1,11 +1,12 @@
 import React from 'react';
 import { Row, Col } from 'reactstrap';
 import '../styles/styles.css';
+import 'jquery';
 
 function ContactForm(){
     return(
         <React.Fragment>
-            <div className="panel" data-aos="fade-left" data-aos-delay="50" data-aos-duration="300"  style={{height: "100%",width: "100%", display:"block", padding:"10%",paddingTop:"13%", paddingBottom:"15%"}}>
+            <div className="panel" data-aos="fade-right" data-aos-delay="50" data-aos-duration="300" style={{height: "100%",width: "100%", display:"block", padding:"10%",paddingTop:"13%", paddingBottom:"15%"}}>
                 <Row className="text-center">
                     <Col xs="12">
                         <div className="contact-header align-content-center">
