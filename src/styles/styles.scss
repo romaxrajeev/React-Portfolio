@@ -120,3 +120,94 @@ label{
 .container-fluid{
     background-color: $maroon;
 }
+
+.link{
+    margin-left: 5%;
+    margin-bottom: 5%;
+    cursor: pointer;
+    text-decoration: none;
+    color: $black;
+    font-family: $font;
+    font-weight: 400;
+}
+
+.link:hover{
+    text-decoration: none;
+    color: $black;
+}
+
+.circle{
+    border-radius: 50%;
+    padding: 2em 1.5em;
+    box-shadow: inset 5px 5px 4px 0 rgba($color: $black, $alpha: 0.2),
+    inset -5px -5px 4px 0 rgba($color: $white, $alpha: 1.0);
+    font-size: 1.5em;
+    font-family: $font;
+    font-weight: 700;
+    width: 200px;
+    height: 200px;
+    align-content: center;
+    .text{
+        margin-top: auto;
+        margin-bottom: auto;
+        color: $maroon;
+        text-align: center;
+        vertical-align: middle;
+        line-height: 100px;
+    }
+}
+
+.skills{
+    tr{
+        padding-top: 2em 0;
+        text-align: center;
+    }
+    td{
+        text-align: center;
+        padding: 0% 4em;
+        color: $maroon;
+        font-size: 1.2em;
+    }
+}
+
+.internHeader{
+    font-size: 1.5em;
+    font-weight: 700;
+    color: $maroon;
+    text-align: left;
+    margin-left: 2%;
+    font-family: $font;
+}
+
+.internDetails{
+    margin-top: 2%;
+    font-size: 1.05em;
+    font-weight: 300;
+    color: $black;
+    margin-left: 2%;
+    text-align: left;
+    font-family: $font;
+}
+
+.skills-img{
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+
+.skills-text{
+    font-family: $font;
+    font-weight: 400;
+    color: $maroon;
+    font-size: 1.2em;
+}
+
+.neumorphism-o{
+    box-shadow:  5px 5px 4px 0 rgba($color: $black, $alpha: 0.2),
+     -5px -5px 4px 0 rgba($color: $white, $alpha: 1.0);
+    margin: auto;
+    padding: 15%;
+    border-radius: 50px;
+}

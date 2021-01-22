@@ -8,7 +8,7 @@ function Review(){
             <Row className="text-center review-text" data-aos="fade-up" data-aos-delay="50" data-aos-duration="300">
                 <Col xs="2"></Col>
                 <Col xs="8">
-                    Some honest feedback by my clients!
+                    Some honest feedback by my clients and faculties!
                 </Col>
                 <Col xs="2"></Col>
             </Row>

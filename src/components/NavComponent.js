@@ -21,8 +21,8 @@ class NavBarComponent extends Component{
     render(){
         return(
             <Navbar expand="md" className="mt-3" light>
-                <NavbarBrand>
-                   <NormalLink to="/"><img src="img/DMNewLogo.png" height="36px" width="50px" alt="Logo" /></NormalLink>
+                <NavbarBrand href="/">
+                   <img src="img/DMNewLogo.png" height="36px" width="50px" alt="Logo" />
                 </NavbarBrand>
                 <NavbarToggler onClick={this.toggleNav} />
                 <Collapse isOpen={this.state.isOpen} navbar>

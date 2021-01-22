@@ -6,7 +6,7 @@ import 'jquery';
 function ContactForm(){
     return(
         <React.Fragment>
-            <div className="panel" data-aos="fade-right" data-aos-delay="50" data-aos-duration="300" style={{height: "100%",width: "100%", display:"block", padding:"10%",paddingTop:"13%", paddingBottom:"15%"}}>
+            <div className="panel" data-aos="flip-left" data-aos-duration="700" style={{height: "100%",width: "100%", display:"block", padding:"10%",paddingTop:"13%", paddingBottom:"15%"}}>
                 <Row className="text-center">
                     <Col xs="12">
                         <div className="contact-header align-content-center">
@@ -31,7 +31,7 @@ function ContactForm(){
                                     <textarea type="text" name="message" id="message" rows="6" required />
                                 </div>
                             </div>
-                            <div className="form-group text-center mt-4">
+                            <div className="form-group text-center mt-5">
                                 <button type="submit" className="btn my-work"  value="sendMsg">Send Message!</button>
                             </div>
                         </form>

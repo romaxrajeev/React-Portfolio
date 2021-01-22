@@ -1,0 +1,203 @@
+{
+    "uiux" : [
+        {
+            "id" : 0,
+            "name" : "Home Automation UI",
+            "image" : "img/ui/home.png",
+            "desc" : "A minimalistic Home Automation User Interface Design, where users can have control over their devices in a very handy approach."
+        },
+        {
+            "id" : 1,
+            "name" : "Daily UI Challenge - Login for an App",
+            "image" : "img/ui/dailyui1.png",
+            "desc" : "A clean layout for a login page having traditional username & password login, also supporting social media login."
+        },
+        {
+            "id" : 2,
+            "name" : "Daily UI Challenge - Payment Checkout",
+            "image" : "img/ui/dailyui2.png",
+            "desc" : "Cool on the eyes, less distracting user interface design with a great user experience."
+        },
+        {
+            "id" : 3,
+            "name" : "Daily UI Challenge - E-Commerce Website",
+            "image" : "img/ui/dailyui3.png",
+            "desc" : "A e-commerce app design for shoes. A highlight to the major offers on the landing page followed by an unstructured card design for a trendy look."
+        },
+        {
+            "id" : 4,
+            "name" : "Daily UI Challenge - Calculator",
+            "image" : "img/ui/dailyui4.png",
+            "desc" : "A minimalistic calculator design, which looks very handy and even has a dark mode! Check out my projects where you'd find a Github link to this app made by me."
+        },
+        {
+            "id" : 5,
+            "name" : "Daily UI Challenge - Icon Design",
+            "image" : "img/ui/dailyui5.png",
+            "desc" : "Created some trendy icons for the 4 designs mentioned before."
+        },
+        {
+            "id" : 6,
+            "name" : "Daily UI Challenge - App for Hiring Developers",
+            "image" : "img/ui/dailyui6.png",
+            "desc" : "An app where potential employers can find potential developers by having a quick look at their profile. It can also be a mini-CV for developers."
+        },
+        {
+            "id" : 7,
+            "name" : "Daily UI Challenge - Music App",
+            "image" : "img/ui/dailyui9.png",
+            "desc" : "A music player app UI design with some minimalism and vibrant colors."
+        }
+    ],
+    "logos" : [
+        {
+            "id" : 0,
+            "name" : "MotorHeads Car Washing and Detailing",
+            "image" : "img/logos/motorheads.png",
+            "desc" : "A trendy logo for a car wash start-up based in Panvel, Navi Mumbai."
+        },
+        {
+            "id" : 1,
+            "name" : "Sporcial - Find Your Sports Buddy",
+            "image": "img/logos/sporcial.png",
+            "desc" : "Sporcial is a start-up which enables you to find like minded sports people. This logo highlights the bond between two persons which on the whole symbolizes a sports ball. This was made as a part of the internship at Sporcial."
+        },
+        {
+            "id" : 2,
+            "name" : "Counting Unique",
+            "image": "img/logos/countingunique.png",
+            "desc" : "Counting Unique is a tech channel on YouTube which specialises in reviewing various different and unique gadgets which can make your life fun and convenient."
+        },
+        {
+            "id" : 3,
+            "name" : "Heartfulness - Tapas PCE Meditation and Wellness Club",
+            "image": "img/logos/tapas.png",
+            "desc" : "An initiative to beat the stress out of students - with Tapas - PCE, a brainchild of the students of PCE. I wanted all the people who saw the logo, to remember the name, rather than just stereotype it with an icon. Hence, this design was created. The colors signify the strength and will of the committee to make things happen, in spite of many hurdles. Tapas PCE is a wellness club launched in Pillai College of Engineering in collaboration with Heartfulness."
+        },
+        {
+            "id" : 4,
+           "name" : "Teevibes",
+           "image" : "img/logos/teevibes.png",
+           "desc" : "Teevibes is a start-up for selling trendy, vibrant graphic t-shirts for the youth."
+        },
+        {
+            "id" : 5,
+            "name" : "Logic Detector",
+            "image": "img/logos/logicdetector.png",
+            "desc" : "Sketching this art was time consuming and mastering the iconic hairstyle of Nikola Tesla was a challenge. In the end, it came out good! About Logic Detector: Helping people get smarter by sharing riddles, brainteasers, interview questions, life-hacks and new facts!"
+        },
+        {
+            "id" : 6,
+            "name" : "Remind - Task Tracker",
+            "image": "img/logos/remind.png",
+            "desc" : "Recently, I found out that it's too hard to keep track of all the tasks I have in hand and majority of the apps didn't help me. So, I came up with Remind, a minimal reminder application. It's a personal project, on which I would be working in this Christmas vacation. To make the name resonate with its purpose, this logo was envisioned."
+        },
+        {
+            "id" : 7,
+            "name" : "Dipsips - Food Blogging",
+            "image" : "Dipsips is a food blogging page on Instagram handled by my friend."
+        }
+    ],
+
+    "tshirts" : [
+        {
+            "id" : 0,
+            "image" : "img/tshirts/apnatimeaayega.png"
+        },
+        {
+            "id" : 1,
+            "image" : "img/tshirts/bhow.png"
+        },
+        {
+            "id" : 2,
+            "image" : "img/tshirts/diplomaticallyshady.png"
+        },
+        {
+            "id" : 3,
+            "image" : "img/tshirts/kaamchor.png"
+        },
+        {
+            "id" : 4,
+            "image" : "img/tshirts/kathakali.png"
+        },
+        {
+            "id" : 5,
+            "image" : "img/tshirts/lifttogrow.png"
+        },
+        {
+            "id" : 6,
+            "image" : "img/tshirts/lion.png"
+        },
+        {
+            "id" : 7,
+            "image" : "img/tshirts/mechengg.png"
+        },
+        {
+            "id" : 8,
+            "image" : "img/tshirts/mumbai.png"
+        },
+        {
+            "id" : 9,
+            "image" : "img/tshirts/mushroom.png"
+        },
+        {
+            "id" : 10,
+            "image" : "img/tshirts/wiredweird.png"
+        }
+    ],
+
+    "posters" : [
+        {
+            "id" : 0,
+            "image" : "img/posters/alone.png"
+        },
+        {
+            "id" : 1,
+            "image" : "img/tshirts/book.png"
+        },
+        {
+            "id" : 2,
+            "image" : "img/tshirts/composite.png"
+        },
+        {
+            "id" : 3,
+            "image" : "img/tshirts/dhvani.png"
+        },
+        {
+            "id" : 4,
+            "image" : "img/tshirts/diegomaradona.png"
+        },
+        {
+            "id" : 5,
+            "image" : "img/tshirts/music.png"
+        },
+        {
+            "id" : 6,
+            "image" : "img/tshirts/lionking.png"
+        },
+        {
+            "id" : 7,
+            "image" : "img/tshirts/peace.png"
+        },
+        {
+            "id" : 8,
+            "image" : "img/tshirts/armaanmalik.png"
+        },
+        {
+            "id" : 9,
+            "image" : "img/tshirts/prajakta.png"
+        },
+        {
+            "id" : 10,
+            "image" : "img/tshirts/dog.png"
+        },
+        {
+            "id" : 11,
+            "image" : "img/tshirts/cat.png"
+        },
+        {
+            "id" : 12,
+            "image" : "img/tshirts/panda.png"
+        }
+    ]
+}

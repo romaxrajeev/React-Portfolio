@@ -1,10 +1,8 @@
 import React from 'react';
 import '../styles/styles.css';
-import '../../node_modules/neumorphism-css/dist/css/neumorphism.min.css';
-import '../../node_modules/neumorphism-css/dist/js/neumorphism';
-import '../../node_modules/jquery/dist/jquery';
 import { Row, Col } from 'reactstrap';
 import {Link} from 'react-scroll';
+
 function HeaderComponent() {
     return(
         <Row className="mt-5">
@@ -25,8 +23,8 @@ function HeaderComponent() {
             <Row className="text-center align-content-center" data-aos="fade-up" data-aos-delay="100" data-aos-duration="750">
               <Col xs="12" md="2"></Col>
               <Col xs="12" md="8">
-                <div className="neumorphism-outer mt-3 mt-md-5" style={{width: "100%"}}>
-                  <img src="img/designer.png" class="img-fluid" width="318px" height="300px"/>
+                <div className="neumorphism-outer mt-3 mt-md-5 d-none d-md-block" x="5" y="5" b="5" l-opac="1.0" s-opac="0.0" light="#ffffff" shadow="#000000" style={{width: "100%",padding:"15%"}}>
+                  <img src="img/designer.png" className="img-fluid" width="318px" height="300px" alt="Designer"/>
                 </div>
               </Col>
               <Col xs="12" md="2"></Col>

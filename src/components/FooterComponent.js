@@ -11,10 +11,10 @@ function FooterComponent() {
                 <Container>
                     <Row className="pt-4 pb-4">
                         <Col xs="12" md="6" className="text-center" style={{color: "#fff", fontSize: "1.1em"}}>
-                        <a href="https://www.facebook.com/romax.rajeev/" target="_blank"><FontAwesomeIcon icon={faFacebook} color="#fff" size="1.1em" /></a>&emsp;
-                        <a href="https://www.instagram.com/desmax_designs/" target="_blank"><FontAwesomeIcon icon={faInstagram} color="#fff" size="1.1em" /></a>&emsp;
-                        <a href="https://twitter.com/romeo611199" target="_blank"><FontAwesomeIcon icon={faTwitter} color="#fff" size="1.1em" /></a>&emsp;
-                        <a href="https://www.linkedin.com/in/romax-rajeev-269094100/" target="_blank"><FontAwesomeIcon icon={faLinkedin} color="#fff" size="1.1em" /></a>&emsp;
+                        <a href="https://www.facebook.com/romax.rajeev/" target="_blank" rel="noreferrer"><FontAwesomeIcon icon={faFacebook} color="#fff" size="1x" /></a>&emsp;
+                        <a href="https://www.instagram.com/desmax_designs/" target="_blank" rel="noreferrer"><FontAwesomeIcon icon={faInstagram} color="#fff" size="1x" /></a>&emsp;
+                        <a href="https://twitter.com/romeo611199" target="_blank" rel="noreferrer"><FontAwesomeIcon icon={faTwitter} color="#fff" size="1x" /></a>&emsp;
+                        <a href="https://www.linkedin.com/in/romax-rajeev-269094100/" target="_blank" rel="noreferrer"><FontAwesomeIcon icon={faLinkedin} color="#fff" size="1x" /></a>&emsp;
                         </Col>
                         <Col xs="12" md="6" className="text-center" style={{color: "#fff", fontFamily: "Montserrat", fontSize: "1.1em", fontWeight:"300"}}>
                             &copy; Desmax Designs.

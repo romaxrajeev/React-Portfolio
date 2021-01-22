@@ -123,4 +123,96 @@ label {
 .container-fluid {
   background-color: #4d0000;
 }
+
+.link {
+  margin-left: 5%;
+  margin-bottom: 5%;
+  cursor: pointer;
+  text-decoration: none;
+  color: #000;
+  font-family: "Montserrat";
+  font-weight: 400;
+}
+
+.link:hover {
+  text-decoration: none;
+  color: #000;
+}
+
+.circle {
+  border-radius: 50%;
+  padding: 2em 1.5em;
+  -webkit-box-shadow: inset 5px 5px 4px 0 rgba(0, 0, 0, 0.2), inset -5px -5px 4px 0 white;
+          box-shadow: inset 5px 5px 4px 0 rgba(0, 0, 0, 0.2), inset -5px -5px 4px 0 white;
+  font-size: 1.5em;
+  font-family: "Montserrat";
+  font-weight: 700;
+  width: 200px;
+  height: 200px;
+  -ms-flex-line-pack: center;
+      align-content: center;
+}
+
+.circle .text {
+  margin-top: auto;
+  margin-bottom: auto;
+  color: #4d0000;
+  text-align: center;
+  vertical-align: middle;
+  line-height: 100px;
+}
+
+.skills tr {
+  padding-top: 2em 0;
+  text-align: center;
+}
+
+.skills td {
+  text-align: center;
+  padding: 0% 4em;
+  color: #4d0000;
+  font-size: 1.2em;
+}
+
+.internHeader {
+  font-size: 1.5em;
+  font-weight: 700;
+  color: #4d0000;
+  text-align: left;
+  margin-left: 2%;
+  font-family: "Montserrat";
+}
+
+.internDetails {
+  margin-top: 2%;
+  font-size: 1.05em;
+  font-weight: 300;
+  color: #000;
+  margin-left: 2%;
+  text-align: left;
+  font-family: "Montserrat";
+}
+
+.skills-img {
+  margin-top: auto;
+  margin-bottom: auto;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+}
+
+.skills-text {
+  font-family: "Montserrat";
+  font-weight: 400;
+  color: #4d0000;
+  font-size: 1.2em;
+}
+
+.neumorphism-o {
+  -webkit-box-shadow: 5px 5px 4px 0 rgba(0, 0, 0, 0.2), -5px -5px 4px 0 white;
+          box-shadow: 5px 5px 4px 0 rgba(0, 0, 0, 0.2), -5px -5px 4px 0 white;
+  margin: auto;
+  padding: 15%;
+  border-radius: 50px;
+}
 /*# sourceMappingURL=styles.css.map */
