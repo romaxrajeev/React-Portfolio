@@ -215,4 +215,46 @@ label {
   padding: 15%;
   border-radius: 50px;
 }
+
+.works {
+  cursor: pointer;
+  position: relative;
+}
+
+.works .desc {
+  font-weight: 300;
+  font-size: 0.85em;
+  font-family: "Montserrat";
+  margin-top: 10%;
+  -ms-flex-line-pack: center;
+      align-content: center;
+}
+
+.works .title {
+  text-align: center;
+  font-weight: 700;
+  font-size: 1.2em;
+  color: #4d0000;
+  font-family: "Montserrat";
+  margin-top: 10%;
+}
+
+.works .details {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  -webkit-transition: opacity 0.3s ease-in;
+  transition: opacity 0.3s ease-in;
+  opacity: 0;
+}
+
+.works:hover .details {
+  opacity: 1;
+}
+
+.works:hover .work-image {
+  opacity: 0.02;
+}
 /*# sourceMappingURL=styles.css.map */

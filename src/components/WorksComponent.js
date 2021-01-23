@@ -13,39 +13,39 @@ function WorksComponent(){
             </Row>
             <Row className="mt-5 mb-md-5" data-aos="fade-up" data-aos-delay="20" data-aos-duration="200">
                 <Col xs="12" md="4" className="align-content-center mt-5 mt-md-0">
-                    <Link to="#">
-                        <div class="neumorphism-o">
-                        <img src="img/uiux.svg" class="img-fluid m-auto" />
+                    <Link to="/uiux">
+                        <div className="neumorphism-o">
+                        <img src="img/uiux.svg" className="img-fluid m-auto" />
                         </div>
                     </Link>
                 </Col>
                 <Col xs="12" md="4" className="align-content-center mt-5 mt-md-0">
-                    <Link to="#">
-                        <div class="neumorphism-o">
-                            <img src="img/logos.svg" class="img-fluid m-auto" />
+                    <Link to="/logos">
+                        <div className="neumorphism-o">
+                            <img src="img/logos.svg" className="img-fluid m-auto" />
                         </div>
                     </Link>
                 </Col>
                 <Col xs="12" md="4" className="align-content-center mt-5 mt-md-0">
-                    <Link to="#">
-                        <div class="neumorphism-o">
-                            <img src="img/posters.svg" class="img-fluid m-auto" />
+                    <Link to="/posters">
+                        <div className="neumorphism-o">
+                            <img src="img/posters.svg" className="img-fluid m-auto" />
                         </div>
                     </Link>
                 </Col>
             </Row>
             <Row className="mt-md-5 mt-3 mb-5" data-aos="fade-up" data-aos-duration="300">
                 <Col xs="12" md="4" className="align-content-center mt-5 mt-md-0">
-                    <Link to="#">
-                        <div class="neumorphism-o">
-                            <img src="img/tshirts.svg" class="img-fluid m-auto" />
+                    <Link to="/tshirts">
+                        <div className="neumorphism-o">
+                            <img src="img/tshirts.svg" className="img-fluid m-auto" />
                         </div>
                     </Link>
                 </Col>
                 <Col xs="12" md="4" className="align-content-center mt-5 mt-md-0">
                     <Link to="#">
-                        <div class="neumorphism-o">
-                            <img src="img/projects.svg" class="img-fluid m-auto" />
+                        <div className="neumorphism-o">
+                            <img src="img/projects.svg" className="img-fluid m-auto" />
                         </div>
                     </Link>
                 </Col>
