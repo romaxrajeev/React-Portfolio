@@ -15,21 +15,21 @@ function WorksComponent(){
                 <Col xs="12" md="4" className="align-content-center mt-5 mt-md-0">
                     <Link to="/uiux">
                         <div className="neumorphism-o">
-                        <img src="img/uiux.svg" className="img-fluid m-auto" />
+                        <img src="img/uiux.svg" className="img-fluid m-auto" alt="UIUX Designs" />
                         </div>
                     </Link>
                 </Col>
                 <Col xs="12" md="4" className="align-content-center mt-5 mt-md-0">
                     <Link to="/logos">
                         <div className="neumorphism-o">
-                            <img src="img/logos.svg" className="img-fluid m-auto" />
+                            <img src="img/logos.svg" className="img-fluid m-auto" alt="Logo Designs" />
                         </div>
                     </Link>
                 </Col>
                 <Col xs="12" md="4" className="align-content-center mt-5 mt-md-0">
                     <Link to="/posters">
                         <div className="neumorphism-o">
-                            <img src="img/posters.svg" className="img-fluid m-auto" />
+                            <img src="img/posters.svg" className="img-fluid m-auto" alt="Poster Designs" />
                         </div>
                     </Link>
                 </Col>
@@ -38,14 +38,14 @@ function WorksComponent(){
                 <Col xs="12" md="4" className="align-content-center mt-5 mt-md-0">
                     <Link to="/tshirts">
                         <div className="neumorphism-o">
-                            <img src="img/tshirts.svg" className="img-fluid m-auto" />
+                            <img src="img/tshirts.svg" className="img-fluid m-auto" alt="Tshirt Designs" />
                         </div>
                     </Link>
                 </Col>
                 <Col xs="12" md="4" className="align-content-center mt-5 mt-md-0">
                     <Link to="#">
                         <div className="neumorphism-o">
-                            <img src="img/projects.svg" className="img-fluid m-auto" />
+                            <img src="img/projects.svg" className="img-fluid m-auto" alt="Dev Projects" />
                         </div>
                     </Link>
                 </Col>

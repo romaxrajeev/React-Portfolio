@@ -51,7 +51,7 @@ export const LOGOS = [
         "id" : 8,
         "name" : "Foreign Portal",
         "image" : "img/logos/foreignportal.png",
-        "desc" : "Foreign Portal is a startup which handles visa requirements for various countries."
+        "desc" : "Foreign Portal is a freelance immigration consulting agency specialized in Canada PR Visa, study visa, and visitors visas for all countries."
     },
     {
         "id" : 9,

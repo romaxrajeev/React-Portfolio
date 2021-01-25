@@ -1,50 +1,56 @@
 export const UIUX = [
     {
-        "id" : 0,
-        "name" : "Home Automation UI",
-        "image" : "img/ui/home.png",
-        "desc" : "A minimalistic Home Automation User Interface Design, where users can have control over their devices in a very handy approach."
-    },
-    {
         "id" : 1,
         "name" : "Daily UI Challenge - Login for an App",
-        "image" : "img/ui/dailyui1.png",
-        "desc" : "A clean layout for a login page having traditional username & password login, also supporting social media login."
+        "image" : "img/ui/dailyuiday1.png",
+        "desc" : "A layout design for a tree plantation app supporting social media logins and traditional methods."
     },
     {
         "id" : 2,
         "name" : "Daily UI Challenge - Payment Checkout",
-        "image" : "img/ui/dailyui2.png",
-        "desc" : "Cool on the eyes, less distracting user interface design with a great user experience."
+        "image" : "img/ui/dailyuiday2.png",
+        "desc" : "A minimalist payment checkout app for a bread buying app design with less distractions."
     },
     {
         "id" : 3,
         "name" : "Daily UI Challenge - E-Commerce Website",
-        "image" : "img/ui/dailyui3.png",
-        "desc" : "A e-commerce app design for shoes. A highlight to the major offers on the landing page followed by an unstructured card design for a trendy look."
+        "image" : "img/ui/dailyuiday3.png",
+        "desc" : "A e-commerce app design for shoes with major offer highlights and varied card structure layouts."
     },
     {
         "id" : 4,
         "name" : "Daily UI Challenge - Calculator",
-        "image" : "img/ui/dailyui4.png",
-        "desc" : "A minimalistic calculator design, which looks very handy and even has a dark mode! Check out my projects where you'd find a Github link to this app made by me."
+        "image" : "img/ui/dailyuiday4.png",
+        "desc" : "A minimalistic calculator design supporting both light and dark mode."
     },
     {
         "id" : 5,
         "name" : "Daily UI Challenge - Icon Design",
-        "image" : "img/ui/dailyui5.png",
-        "desc" : "Created some trendy icons for the 4 designs mentioned before."
+        "image" : "img/ui/dailyuiday5.png",
+        "desc" : "Icons for tree plantation, bread buying, shoes and calculator apps."
     },
     {
         "id" : 6,
         "name" : "Daily UI Challenge - App for Hiring Developers",
-        "image" : "img/ui/dailyui6.png",
-        "desc" : "An app where potential employers can find potential developers by having a quick look at their profile. It can also be a mini-CV for developers."
+        "image" : "img/ui/dailyuiday6.png",
+        "desc" : "Design for a Mini CV App for developers and for employers looking for excellent developers."
     },
     {
         "id" : 7,
-        "name" : "Daily UI Challenge - Music App",
-        "image" : "img/ui/dailyui9.png",
-        "desc" : "A music player app UI design with some minimalism and vibrant colors."
+        "name" : "Daily UI Challenge - 404 Page",
+        "image" : "img/ui/dailyuiday7.png",
+        "desc" : "A 404 page from the Teevibes Website, with a cool illustration."
+    },
+    {
+        "id" : 8,
+        "name" : "Daily UI Challenge - Flash Message",
+        "image" : "img/ui/dailyuiday8.png",
+        "desc" : "Flash Message designs for positive and negative response from an app."
+    },
+    {
+        "id" : 9,
+        "name" : "Daily UI Challenge - TO DO App",
+        "image" : "img/ui/dailyuiday9.png",
+        "desc" : "A minimal, less distracting design for a to-do app."
     }
 ]

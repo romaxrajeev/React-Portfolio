@@ -3,6 +3,7 @@ $background: #f2f2f2;
 $black: #000;
 $white: #fff;
 $maroon: #4d0000;
+$golden: #ffc012;
 $font: 'Montserrat';
 
 body{
@@ -129,6 +130,7 @@ label{
     color: $black;
     font-family: $font;
     font-weight: 400;
+    padding-bottom: 5px;
 }
 
 .link:hover{
@@ -212,9 +214,8 @@ label{
     border-radius: 50px;
 }
 
+
 .works{
-    cursor: pointer;
-    position: relative;
     .desc{
         font-weight: 300;
         font-size: 0.85em;
@@ -231,21 +232,25 @@ label{
         font-family: $font;
         margin-top: 10%;
     }
-    .details{
-        position: absolute;
-        top: 50%;
-        left: 50%;
-        transform: translate(-50%, -50%);
-        transition: opacity 0.3s ease-in;
-        opacity: 0;
-    }
+}
 
-    &:hover {
-        .details{
-            opacity: 1;
-        }
-        .work-image{
-            opacity: 0.02;
-        }
-    }
+#works-accordion{
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+}
+#works-accordion h2{
+    font-size: 12pt;
+    margin: 0px;
+    padding: 10px;
+}
+#works-accordion li div.details{
+    opacity: 0;
+    height: 0;
+    padding: 10px;
+}
+#works-accordion li:hover div.details{
+    transition: opacity 0.2s ease-in;
+    opacity: 1;
+    height: fit-content;
 }

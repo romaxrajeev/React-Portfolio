@@ -132,6 +132,7 @@ label {
   color: #000;
   font-family: "Montserrat";
   font-weight: 400;
+  padding-bottom: 5px;
 }
 
 .link:hover {
@@ -216,11 +217,6 @@ label {
   border-radius: 50px;
 }
 
-.works {
-  cursor: pointer;
-  position: relative;
-}
-
 .works .desc {
   font-weight: 300;
   font-size: 0.85em;
@@ -239,22 +235,30 @@ label {
   margin-top: 10%;
 }
 
-.works .details {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  -webkit-transform: translate(-50%, -50%);
-          transform: translate(-50%, -50%);
-  -webkit-transition: opacity 0.3s ease-in;
-  transition: opacity 0.3s ease-in;
+#works-accordion {
+  margin: 0px;
+  padding: 0px;
+  list-style: none;
+}
+
+#works-accordion h2 {
+  font-size: 12pt;
+  margin: 0px;
+  padding: 10px;
+}
+
+#works-accordion li div.details {
   opacity: 0;
+  height: 0;
+  padding: 10px;
 }
 
-.works:hover .details {
+#works-accordion li:hover div.details {
+  -webkit-transition: opacity 0.2s ease-in;
+  transition: opacity 0.2s ease-in;
   opacity: 1;
-}
-
-.works:hover .work-image {
-  opacity: 0.02;
+  height: -webkit-fit-content;
+  height: -moz-fit-content;
+  height: fit-content;
 }
 /*# sourceMappingURL=styles.css.map */

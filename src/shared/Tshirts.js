@@ -1,46 +1,37 @@
 export const TSHIRTS = [
     {
-        "id" : 0,
-        "image" : "img/tshirts/apnatimeaayega.png"
-    },
-    {
         "id" : 1,
+        "name" : "Dog Bhow",
         "image" : "img/tshirts/bhow.png"
     },
     {
         "id" : 2,
+        "name" : "Diplomaticaly Shady",
         "image" : "img/tshirts/diplomaticallyshady.png"
     },
     {
         "id" : 3,
+        "name" : "Kaamchor",
         "image" : "img/tshirts/kaamchor.png"
     },
     {
         "id" : 4,
+        "name" : "Kathakali",
         "image" : "img/tshirts/kathakali.png"
     },
     {
         "id" : 5,
-        "image" : "img/tshirts/lifttogrow.png"
-    },
-    {
-        "id" : 6,
-        "image" : "img/tshirts/lion.png"
-    },
-    {
-        "id" : 7,
+        "name" : "Mechanical Engineering",
         "image" : "img/tshirts/mechengg.png"
     },
     {
-        "id" : 8,
-        "image" : "img/tshirts/mumbai.png"
-    },
-    {
-        "id" : 9,
+        "id" : 6,
+        "name" : "Mushroom",
         "image" : "img/tshirts/mushroom.png"
     },
     {
-        "id" : 10,
+        "id" : 7,
+        "name" : "Wired Weird",
         "image" : "img/tshirts/wiredweird.png"
     }
 ]

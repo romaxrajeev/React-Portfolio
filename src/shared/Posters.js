@@ -1,54 +1,67 @@
 export const POSTERS = [
     {
         "id" : 0,
-        "image" : "img/posters/alone.png"
+        "name":"Alone",
+        "image" : "img/posters/alone.jpg"
     },
     {
         "id" : 1,
-        "image" : "img/tshirts/book.png"
+        "name":"Book Composite",
+        "image" : "img/posters/book.jpg"
     },
     {
         "id" : 2,
-        "image" : "img/tshirts/composite.png"
+        "name":"Fire Composite",
+        "image" : "img/posters/composite.jpg"
     },
     {
         "id" : 3,
-        "image" : "img/tshirts/dhvani.png"
+        "name":"Dhvani Bhanushali Poster - Alegria 2020",
+        "image" : "img/posters/dhvani.jpg"
     },
     {
         "id" : 4,
-        "image" : "img/tshirts/diegomaradona.png"
+        "name":"DJ Diego Miranda Poster - Alegria 2020",
+        "image" : "img/posters/diegomiranda.jpg"
     },
     {
         "id" : 5,
-        "image" : "img/tshirts/music.png"
+        "name":"Music Composite",
+        "image" : "img/posters/music.jpg"
     },
     {
         "id" : 6,
-        "image" : "img/tshirts/lionking.png"
+        "name":"Lion Composite",
+        "image" : "img/posters/king.jpg"
     },
     {
         "id" : 7,
-        "image" : "img/tshirts/peace.png"
+        "name":"Peace Composite",
+        "image" : "img/posters/peace.jpg"
     },
     {
         "id" : 8,
-        "image" : "img/tshirts/armaanmalik.png"
+        "name":"Armaan Malik Poster - Alegria 2020",
+        "image" : "img/posters/armaanmalik.jpg"
     },
     {
         "id" : 9,
-        "image" : "img/tshirts/prajakta.png"
+        "name":"Prajakta Shukre Poster - Alegria 2020",
+        "image" : "img/posters/prajakta.jpg"
     },
     {
         "id" : 10,
-        "image" : "img/tshirts/dog.png"
+        "name":"Space Dog Composite",
+        "image" : "img/posters/dog.jpg"
     },
     {
         "id" : 11,
-        "image" : "img/tshirts/cat.png"
+        "name":"Underwater Cat Composite",
+        "image" : "img/posters/cat.jpg"
     },
     {
         "id" : 12,
-        "image" : "img/tshirts/panda.png"
+        "name":"Sleeping Panda Composite",
+        "image" : "img/posters/panda.jpg"
     }
 ]
