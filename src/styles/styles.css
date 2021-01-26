@@ -140,42 +140,7 @@ label {
   color: #000;
 }
 
-.circle {
-  border-radius: 50%;
-  padding: 2em 1.5em;
-  -webkit-box-shadow: inset 5px 5px 4px 0 rgba(0, 0, 0, 0.2), inset -5px -5px 4px 0 white;
-          box-shadow: inset 5px 5px 4px 0 rgba(0, 0, 0, 0.2), inset -5px -5px 4px 0 white;
-  font-size: 1.5em;
-  font-family: "Montserrat";
-  font-weight: 700;
-  width: 200px;
-  height: 200px;
-  -ms-flex-line-pack: center;
-      align-content: center;
-}
-
-.circle .text {
-  margin-top: auto;
-  margin-bottom: auto;
-  color: #4d0000;
-  text-align: center;
-  vertical-align: middle;
-  line-height: 100px;
-}
-
-.skills tr {
-  padding-top: 2em 0;
-  text-align: center;
-}
-
-.skills td {
-  text-align: center;
-  padding: 0% 4em;
-  color: #4d0000;
-  font-size: 1.2em;
-}
-
-.internHeader {
+.internHeader, .projectHeader {
   font-size: 1.5em;
   font-weight: 700;
   color: #4d0000;
@@ -184,7 +149,7 @@ label {
   font-family: "Montserrat";
 }
 
-.internDetails {
+.internDetails, .projectDetails {
   margin-top: 2%;
   font-size: 1.05em;
   font-weight: 300;

@@ -43,7 +43,7 @@ function WorksComponent(){
                     </Link>
                 </Col>
                 <Col xs="12" md="4" className="align-content-center mt-5 mt-md-0">
-                    <Link to="#">
+                    <Link to="/projects">
                         <div className="neumorphism-o">
                             <img src="img/projects.svg" className="img-fluid m-auto" alt="Dev Projects" />
                         </div>

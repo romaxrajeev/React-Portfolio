@@ -7,7 +7,7 @@ export const LOGOS = [
     },
     {
         "id" : 1,
-        "name" : "Sporcial ",
+        "name" : "Sporcial",
         "image": "img/logos/sporcial.png",
         "desc" : "Sporcial is a start-up which enables you to find like minded sports people."
     },
@@ -57,6 +57,6 @@ export const LOGOS = [
         "id" : 9,
         "name" : "That Tabla Guy",
         "image" : "img/logos/thattablaguy.png",
-        "desc" : "An Instagram page where my friend regularly plays his favourite percussion instrument."
+        "desc" : "Ajay Prajapati a.k.a That_Tablaguy is a young budding percussionist. He mainly covers Hindi English songs and add Hindustani tadka to it."
     }
 ]
