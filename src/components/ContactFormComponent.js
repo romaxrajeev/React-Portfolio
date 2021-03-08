@@ -16,7 +16,7 @@ function ContactForm(){
                 </Row>
                 <Row className="mt-4">
                     <Col xs="12">
-                        <form name="contact" netlify>
+                        <form name="contact" netlify="true">
                             <div className="form-group mt-1">
                                 <label htmlFor="email">Email:</label>
                                 <br />
@@ -28,7 +28,7 @@ function ContactForm(){
                                 <label htmlFor="message">Message:</label>
                                 <br />
                                 <div className="neumorphinner">
-                                    <textarea type="text" name="message" id="message" rows="6" required />
+                                    <textarea type="text" name="message" id="message" rows="5" required />
                                 </div>
                             </div>
                             <div className="form-group text-center mt-5">

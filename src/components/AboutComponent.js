@@ -143,6 +143,20 @@ function AboutComponent() {
                     <div className="header-text" style={{marginTop:"7%"}}>
                         Internships
                     </div>
+
+                    <Row className="mt-5" data-aos="fade-right" data-aos-delay="50" data-aos-duration="300">
+                        <Col xs="12">
+                            <div className="neumorphism-outer">
+                                <div className="internHeader">
+                                    Graphic Design Intern - Infiniti Group
+                                </div>
+                                <div className="internDetails">
+                                    Created brochures, social media posts for Infiniti Group.
+                                </div>
+                            </div>
+                        </Col>
+                    </Row>
+
                     <Row className="mt-5" data-aos="fade-right" data-aos-delay="50" data-aos-duration="300">
                         <Col xs="12">
                             <div className="neumorphism-outer">
@@ -150,8 +164,7 @@ function AboutComponent() {
                                     UI/UX Design Project - Home Automation
                                 </div>
                                 <div className="internDetails">
-                                    Created a UI design for an home automation app. Designed a layout which 
-helped users navigate through various sections with minimal interactions.
+                                    Created a UI design for an home automation app. Designed a layout which helped users navigate through various sections with minimal interactions.
                                 </div>
                             </div>
                         </Col>
@@ -164,9 +177,7 @@ helped users navigate through various sections with minimal interactions.
                                     E-Portfolio Website Design - Pillai College
                                 </div>
                                 <div className="internDetails">
-                                Created a E-Portfolio template for students of Pillai Group of Institutions for 
-showcasing their resume digitally. It was built using HTML, CSS, JS, 
-Bootstrap and Animate On Scroll library.
+                                Created a E-Portfolio template for students of Pillai Group of Institutions for showcasing their resume digitally. It was built using HTML, CSS, JS, Bootstrap and Animate On Scroll library.
                                 </div>
                             </div>
                         </Col>
@@ -179,9 +190,7 @@ Bootstrap and Animate On Scroll library.
                                     Graphic Design Intern - Sporcial
                                 </div>
                                 <div className="internDetails">
-                                Designed the logo for Sporcial - a sports startup in Vashi. Also created 
-digital marketing ads for promotional events, flyers, banners for physical 
-events and various other business merchandise.
+                                Designed the logo for Sporcial - a sports startup in Vashi. Also created digital marketing ads for promotional events, flyers, banners for physical events and various other business merchandise.
                                 </div>
                             </div>
                         </Col>

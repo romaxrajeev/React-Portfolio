@@ -2,13 +2,9 @@ import React, { Component } from 'react';
 import '../styles/styles.css';
 import {Row, Col} from 'reactstrap';
 import RenderWork from './RenderWork';
+import { Link } from 'react-router-dom';
 
 class WorkComponent extends Component{
-
-    constructor(props){
-        super(props);
-    }
-    
     componentDidMount() {
         window.scrollTo(0, 0);
     }
@@ -50,10 +46,10 @@ class WorkComponent extends Component{
                                         <img src={work.image} className="img-fluid m-auto work-image" height="300px" width="300px" alt={work.name} />
                                     </Col>
                                     <Col xs="12" md="9">
-                                    <div className="projectHeader">
+                                    <div className="projectHeader mt-5 mt-md-0">
                                         {work.name}
                                     </div>
-                                    <div className="projectDetails">
+                                    <div className="projectDetails mt-3 mt-md-0">
                                         <p>{work.desc}</p>
                                         <p><b>Tech Stack:</b> {work.techStack}</p>
                                         <p style={{marginTop: "5%"}}>{Button1}       {Button2}</p>
@@ -69,7 +65,7 @@ class WorkComponent extends Component{
                 <React.Fragment>
                     <Row className="mt-5 d-flex" data-aos="fade-up" data-aos-delay="50" data-aos-duration="300">
                         <Col xs="12">
-                            <div className="header-text" style={{marginTop: "2%"}}>{this.props.title}</div>
+                            <div className="header-text" style={{marginTop: "2%"}}><Link to="/" style={{textDecoration:"none", color:"#0f0f0f", opacity: "0.3", fontWeight: "400", fontSize: "0.8em"}}>Home /&emsp;</Link>{this.props.title}</div>
                         </Col>
                     </Row>
                     {Projects}
@@ -102,7 +98,7 @@ class WorkComponent extends Component{
             <React.Fragment>
                 <Row className="mt-5" data-aos="fade-up" data-aos-delay="50" data-aos-duration="300">
                    <Col xs="12">
-                       <div className="header-text" style={{marginTop: "2%"}}>{this.props.title}</div>
+                       <div className="header-text" style={{marginTop: "2%"}}><Link to="/" style={{textDecoration:"none", color:"#0f0f0f", opacity: "0.3", fontWeight: "400", fontSize: "0.8em"}}>Home /&emsp;</Link>{this.props.title}</div>
                    </Col>
                 </Row>
                 <Row className="mt-5" data-aos="fade-up" style={{marginBottom: "40%"}}>

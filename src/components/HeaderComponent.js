@@ -15,7 +15,7 @@ function HeaderComponent() {
                 <Col xs="12" md="4" data-aos="fade-up" data-aos-delay="200" data-aos-duration="500">Web Developer</Col>
                 <Col xs="12" md="4" data-aos="fade-up" data-aos-delay="300" data-aos-duration="500">React Developer</Col>
             </Row>
-            <Row className="mt-5 pl-3" data-aos="fade-up" data-aos-delay="300" data-aos-duration="500">
+            <Row className="mt-5 pl-4" data-aos="fade-up" data-aos-delay="300" data-aos-duration="500">
                 <Link to="works" smooth={true} style={{cursor: "pointer"}}><button className="btn my-work">Check out my Work!</button></Link>
             </Row>
           </Col>
