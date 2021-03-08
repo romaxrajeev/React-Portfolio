@@ -16,7 +16,7 @@ function ContactForm(){
                 </Row>
                 <Row className="mt-4">
                     <Col xs="12">
-                        <form name="contact" netlify="true">
+                        <form name="contact" data-netlify="true">
                             <div className="form-group mt-1">
                                 <label htmlFor="email">Email:</label>
                                 <br />
