@@ -1,26 +1,33 @@
-$background: #f2f2f2;
+$background: #383838;
 $black: #000;
 $white: #fff;
-$maroon: #4d0000;
-$golden: #ffc012;
+$dark-grey: #38383B;
+$very-dark-grey: #2a2a2a;
+$text-grey: #9e9e9e;
 $font: 'Montserrat';
+$yellow: #FEC86E;
+$green: #9CFF88;
+$red: #FF7A7A;
 
 body{
     background-color: $background !important;
-    font-family: $font;
+    font-family: $font !important;
 }
 
 .nav-item{
-    font-weight: 400;
+    font-weight: 500;
     font-size: 1.15em;
     padding-left: 108px;
+    .nav-link{
+        color: $text-grey !important;
+    }
 }
 
 .panel{
     border-radius: 50px;
     background-color: $background;
-    box-shadow: 5px 5px 10px rgba($color: $black, $alpha: 0.10),
-                -5px -5px 10px rgba($color: $white, $alpha: 1.0);
+    box-shadow: 5px 5px 10px rgba($color: $black, $alpha: 0.2),
+                -5px -5px 10px rgba($color: $white, $alpha: 0.1);
     display: flex;
     margin-left: auto;
     margin-right: auto;
@@ -31,32 +38,51 @@ body{
 }
 
 .header-text{
-    font-family: $font;
     font-weight: 700;
     font-size: 1.85em;
-    margin-top: 25%;
-    color: $maroon;
+    // margin-top: 25%;
+    color: $white;
 }
 
 .slide-up{
-    font-family: $font;
     font-size: 1.1em;
-    font-weight: 300;
+    font-weight: 500;
+    color: $text-grey !important;
+}
+
+.small-underline{
+    height: 10px;
+    width: 15%;
+}
+
+.yellow{
+    box-shadow: 0 9px 0 $yellow;
+}
+
+.red{
+    box-shadow: 0 9px 0 $red;
+}
+
+.green{
+    box-shadow: 0 9px 0 $green;
 }
 
 .my-work{
     border-radius: 15px !important;
     font-weight: 500;
     color: $white;
-    font-family: $font;
-    background-color: $maroon;
+    padding-left: 1.2em !important;
+    padding-right: 1.2em !important;
+    padding-top: 0.7em !important;
+    padding-bottom: 0.7em !important;
+    background-color: $very-dark-grey;
+    box-shadow: 5px 5px 7px 0 #232323;
     font-size: 1.15em;
 }
 
 .works-text{
     text-align: center;
-    color: $maroon;
-    font-family: $font;
+    color: $white;
     font-weight: 800 !important;
     font-size: 1.05em;
     margin-top: 20%;
@@ -78,10 +104,9 @@ a:hover{
 }
 
 .review-text{
-    font-family: $font;
     font-weight: 400;
     font-size: 1.3em;
-    color: $maroon;
+    color: $white;
     justify-content: center;
 }
 
@@ -91,19 +116,19 @@ a:hover{
         border: none;
         outline: none;
         width: 100%;
-        color: $maroon;
+        color: $white;
     }
     border-radius: 15px;
     padding: 10px 20px;
     padding-top: 10px;
+    background-color: $background;
     box-shadow: inset 5px 5px 4px 0 rgba($color: $black, $alpha: 0.2),
-                inset -5px -5px 4px 0 rgba($color: $white, $alpha: 1.0);
+                inset -5px -5px 4px 0 rgba($color: $white, $alpha: 0.1);
 }
 
 .contact-header{
-    font-family: $font;
     font-size: 1.2em;
-    color: $maroon;
+    color: $white;
     font-weight: 700;
     justify-self: center;
 }
@@ -111,24 +136,23 @@ a:hover{
 label{
     font-weight: 400;
     font-size: 1.05em;
-    color: $maroon;
-    font-family: $font;
+    color: $white;
 }
 
 .reviews{
-    font-family: $font;
     font-weight: 400;
     font-size: 1em;
+    color: $text-grey;
 }
 
 .review-author{
-    font-family: $font;
     font-weight: 300;
     font-size: 0.9em;
+    color: $text-grey
 }
 
 .container-fluid{
-    background-color: $maroon;
+    font-weight: 500 !important;
 }
 
 .link{
@@ -136,34 +160,31 @@ label{
     margin-bottom: 5%;
     cursor: pointer;
     text-decoration: none;
-    color: $black;
-    font-family: $font;
+    color: $text-grey;
     font-weight: 400;
     padding-bottom: 5px;
 }
 
 .link:hover{
     text-decoration: none;
-    color: $black;
+    color: $white;
 }
 
 .internHeader, .projectHeader{
     font-size: 1.5em;
     font-weight: 700;
-    color: $maroon;
+    color: $white;
     text-align: left;
     margin-left: 2%;
-    font-family: $font;
 }
 
 .internDetails, .projectDetails{
     margin-top: 2%;
     font-size: 1.05em;
     font-weight: 300;
-    color: $black;
+    color: $text-grey;
     margin-left: 2%;
     text-align: left;
-    font-family: $font;
 }
 
 .skills-img{
@@ -175,26 +196,28 @@ label{
 }
 
 .skills-text{
-    font-family: $font;
     font-weight: 400;
-    color: $maroon;
+    color: $white;
     font-size: 1.2em;
 }
 
 .neumorphism-o{
     box-shadow:  5px 5px 4px 0 rgba($color: $black, $alpha: 0.2),
-     -5px -5px 4px 0 rgba($color: $white, $alpha: 1.0);
+     -5px -5px 4px 0 rgba($color: $white, $alpha: 0.1);
     margin: auto;
     padding: 15%;
+    z-index: 100;
     border-radius: 50px;
+    background-color: $background;
 }
 
 .works{
     .desc{
         font-weight: 300;
         font-size: 0.85em;
-        font-family: $font;
+        color: $text-grey;
         margin-top: 10%;
+        justify-self: center;
         align-content: center;
     }
 
@@ -202,8 +225,8 @@ label{
         text-align: center;
         font-weight: 700;
         font-size: 1.2em;
-        color: $maroon;
-        font-family: $font;
+        color: $white;
+
         margin-top: 10%;
     }
 }
@@ -231,7 +254,60 @@ label{
 
 .review-btn{
     border-radius: 50% !important;
+    width: 50px;
+    height: 50px;
     box-shadow:  3px 3px 4px 0 rgba($color: $black, $alpha: 0.2),
-     -3px -3px 4px 0 rgba($color: $white, $alpha: 1.0);
-    padding: 20% !important;
+     -3px -3px 4px 0 rgba($color: $white, $alpha: 0.1);
+    text-align: center;
+    padding-top: 10% !important;
+}
+
+.circle-container{
+    text-align: center;
+    margin-top: 7vh;
+
+    .circle{
+        width: 15vw;
+        height: 15vw;
+        margin: auto;
+        background: $background;
+        -moz-border-radius: 50%;
+        -webkit-border-radius: 50%;
+        border-radius: 50%;
+        text-align: center;
+        box-shadow:  5px 5px 4px 0 rgba($color: $black, $alpha: 0.2),
+        -5px -5px 4px 0 rgba($color: $white, $alpha: 0.1);
+
+        .inner-circle{
+            width: 14vw;
+            height: 14vw;
+            margin: auto;
+            background-color: $background;
+            -moz-border-radius: 50%;
+            -webkit-border-radius: 50%;
+            border-radius: 50%;
+            position: relative;
+            top: 50%;
+            transform: translateY(-50%);
+            text-align: center;
+            box-shadow: inset 5px 5px 4px 0 rgba($color: $black, $alpha: 0.2),
+            inset -5px -5px 4px 0 rgba($color: $white, $alpha: 0.1);
+        }
+    }
+}
+
+.header-img{
+    width: 99vw;
+    height: 100vh;
+    position: fixed;
+    top: 0;
+    left:0;
+    z-index: -3;
+    align-items: 'center';
+    justify-content: 'center';
+}
+
+.footer{
+    background-color: $very-dark-grey;
+    // margin-top: 350vh;
 }

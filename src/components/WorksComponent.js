@@ -6,8 +6,9 @@ import {Link} from 'react-router-dom'
 function WorksComponent(){
     return(
         <React.Fragment>
-            <Row className="mt-5 mb-5">
-                <div className="header-text pl-3" data-aos="fade-up" data-aos-duration="200" id="works">
+            <Row className="mt-5" id="works"></Row>
+            <Row className=" mt-5 mb-5">
+                <div className="header-text pl-3" data-aos="fade-up" data-aos-duration="200">
                     My Works
                 </div>
             </Row>

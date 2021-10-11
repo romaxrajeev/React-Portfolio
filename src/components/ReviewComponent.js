@@ -39,7 +39,7 @@ class Review extends Component{
                 <Row className="mt-5">
                     <Col xs="1" />
                     <Col xs="10">
-                        <div className="neumorphism-inner" style={{paddingTop: "20%", paddingBottom: "20%", marginLeft:"auto", marginBottom:"auto", alignSelf:"ce"}}>
+                        <div className="neumorphinner" style={{paddingTop: "20%", paddingBottom: "20%", marginLeft:"auto", marginBottom:"auto", alignSelf:"ce"}}>
                             <p className="reviews">"{currReview.review}"</p>
                             <p className="review-author">-{currReview.name}, {currReview.about}</p>
                         </div>
@@ -49,10 +49,10 @@ class Review extends Component{
                 <Row className="mt-3">
                     <Col xs="3" />
                     <Col xs = "3" className="ml-auto mr-auto text-center">
-                        <div className="btn review-btn" onClick={this.previousReview}><FontAwesomeIcon icon={faChevronLeft} opacity="0.4" /></div>
+                        <div className="btn review-btn" onClick={this.previousReview}><FontAwesomeIcon icon={faChevronLeft} opacity="1.0" color="#9e9e9e" /></div>
                     </Col>
                     <Col xs = "3" className="ml-auto mr-auto text-center">
-                        <div className="btn review-btn" onClick={this.nextReview}><FontAwesomeIcon icon={faChevronRight} opacity="0.4" /></div>
+                        <div className="btn review-btn" onClick={this.nextReview}><FontAwesomeIcon icon={faChevronRight} opacity="1.0" color="#9e9e9e" /></div>
                     </Col>
                     <Col xs="3" />
                 </Row>

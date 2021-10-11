@@ -20,20 +20,21 @@ class App extends Component {
 
   render(){
     return (
-      <BrowserRouter>
-      <Container>
-        <NavComponent />
-        <Switch>
-          <Route path="/" component={HomeComponent} exact />
-          <Route path="/about" component={AboutComponent} />
-          <Route path="/uiux" component={() => <WorkComponent category={UIUX} title="UI/UX Design Projects" /> } />
-          <Route path="/logos" component={() => <WorkComponent category={LOGOS} title="Logo Design Projects" /> } />
-          <Route path="/posters" component={() => <WorkComponent category={POSTERS} title="Poster Designs" /> } />
-          <Route path="/projects" component={() => <WorkComponent category={PROJECTS} title="Development & UI/UX Projects" /> } />
-          <Redirect to="/" />
-        </Switch>
-      </Container>
-      <FooterComponent />
+      <BrowserRouter style={{position: 'relative', minHeight: "100vh"}}>
+        <img src="/img/header.png" className="header-img d-none d-md-block" />
+        <Container style={{position: "absolute", top: 0, left: 0, right: 0}}>
+          <NavComponent />
+          <Switch>
+            <Route path="/" component={HomeComponent} exact />
+            <Route path="/about" component={AboutComponent} />
+            <Route path="/uiux" component={() => <WorkComponent category={UIUX} title="UI/UX Design Projects" /> } />
+            <Route path="/logos" component={() => <WorkComponent category={LOGOS} title="Logo Design Projects" /> } />
+            <Route path="/posters" component={() => <WorkComponent category={POSTERS} title="Poster Designs" /> } />
+            <Route path="/projects" component={() => <WorkComponent category={PROJECTS} title="Development & UI/UX Projects" /> } />
+            <Redirect to="/" />
+          </Switch>
+        </Container>
+        {/* <FooterComponent  /> */}
       </BrowserRouter>
     );
   }

@@ -20,16 +20,16 @@ function AboutComponent() {
                                 Computer Engineer & UI/UX Designer
                             </div>
                             <div className="links mt-5" style={{fontWeight: "400", fontSize: "1.1em"}}>
-                                <FontAwesomeIcon icon={faEnvelope} color="#4D0000" size="1x" /><a className="link" href="mailto:romaxakrajeev@gmail.com" target="_blank" rel="noreferrer">romaxakrajeev@gmail.com</a><br />
-                                <FontAwesomeIcon icon={faGithub} color="#4D0000" size="1x" /><a className="link" href="https://www.github.com/romeo611199" target="_blank" rel="noreferrer">www.github.com/romeo611199</a><br />
-                                <FontAwesomeIcon icon={faLinkedin} color="#4D0000" size="1x" /><a className="link" href="https://www.linkedin.com/in/romax-rajeev-269094100/" target="_blank" rel="noreferrer">www.linkedin.com/romax-rajeev</a>
+                                <FontAwesomeIcon icon={faEnvelope} color="#fff" size="1x" /><a className="link" href="mailto:romaxakrajeev@gmail.com" target="_blank" rel="noreferrer">romaxakrajeev@gmail.com</a><br />
+                                <FontAwesomeIcon icon={faGithub} color="#fff" size="1x" /><a className="link" href="https://www.github.com/romeo611199" target="_blank" rel="noreferrer">www.github.com/romeo611199</a><br />
+                                <FontAwesomeIcon icon={faLinkedin} color="#fff" size="1x" /><a className="link" href="https://www.linkedin.com/in/romax-rajeev-269094100/" target="_blank" rel="noreferrer">www.linkedin.com/romax-rajeev</a>
                             </div>
                         </Col>
                         <Col xs="2"></Col>
                     </Row>
                 </Col>
                 <Col xs="12" md="6">
-                    <div className="neumorphism-outer ml-auto mr-auto" style={{margin: 0, padding: 0, width: "250px"}}>
+                    <div className="neumorphism-o ml-auto mr-auto" style={{margin: 0, padding: 0, width: "250px"}}>
                         <img src="img/me.jpg" height="250px" width="250px" alt="Logo" style={{borderRadius: "20px"}} />
                     </div>
                 </Col>
@@ -41,7 +41,7 @@ function AboutComponent() {
                         About
                     </div>
                     <div className="slide-up">
-                        <p className="mt-3">Computer Engineering Graduating in 2021 from Pillai College of Engineering, New Panvel.</p>
+                        <p className="mt-3">Computer Engineering Graduate from Pillai College of Engineering, New Panvel.</p>
                         <p style={{marginTop: "0%"}}>Front-end Developer, UI/UX Designer and a Freelance Graphic Designer.</p>
                         <p style={{marginTop: "0%"}}>Also, enjoys competitive programming and contribute to open source.</p>
                     </div>
@@ -56,7 +56,7 @@ function AboutComponent() {
                     <Row className="mt-5" data-aos="fade-right" data-aos-delay="100" data-aos-duration="300">
                         <Col xs="12">
                         <div className="skills-text">Front-End Development</div>
-                            <div className="neumorphism-inner mt-4">
+                            <div className="neumorphinner mt-4 p-4">
                                 <Row>
                                     <Col xs="6" md="2"  className="mt-0" style={{display: "flex", alignItems: "center"}}>
                                         <img src="img/html5.svg" className="img-fluid text-center skills-img" alt="HTML5" />    
@@ -84,7 +84,7 @@ function AboutComponent() {
                     <Row className="mt-5" data-aos="fade-left" data-aos-delay="100" data-aos-duration="300">
                         <Col xs="12">
                         <div className="skills-text">Back-End Development</div>
-                            <div className="neumorphism-inner mt-4">
+                            <div className="neumorphinner mt-4 p-4">
                                 <Row>
                                     <Col xs="6" md="2"  className="mt-0" style={{display: "flex", alignItems: "center"}}>
                                         <img src="img/php.svg" className="img-fluid text-center skills-img" alt="PHP" />    
@@ -112,7 +112,7 @@ function AboutComponent() {
                     <Row className="mt-5" data-aos="fade-right" data-aos-delay="100" data-aos-duration="300">
                         <Col xs="12">
                         <div className="skills-text">UI/UX and Graphic Design</div>
-                            <div className="neumorphism-inner mt-4">
+                            <div className="neumorphinner mt-4 p-4">
                                 <Row>
                                     <Col xs="6" md="2"  className="mt-0" style={{display: "flex", alignItems: "center"}}>
                                         <img src="img/illustrator.svg" className="img-fluid text-center skills-img" alt="Adobe Illustrator" />    
@@ -137,7 +137,7 @@ function AboutComponent() {
                 </Col>
                 <Col xs="12" md="1"></Col>
             </Row>
-            <Row className="mt-5" data-aos="fade-up" data-aos-delay="50" data-aos-duration="300">
+            <Row className="mt-5 mb-5" data-aos="fade-up" data-aos-delay="50" data-aos-duration="300">
                 <Col xs="12" md="1"></Col>
                 <Col xs="12" md="10">
                     <div className="header-text" style={{marginTop:"7%"}}>
@@ -146,7 +146,7 @@ function AboutComponent() {
 
                     <Row className="mt-5" data-aos="fade-right" data-aos-delay="50" data-aos-duration="300">
                         <Col xs="12">
-                            <div className="neumorphism-outer">
+                            <div className="neumorphism-o p-5">
                                 <div className="internHeader">
                                     Graphic Design Intern - Infiniti Group
                                 </div>
@@ -159,7 +159,7 @@ function AboutComponent() {
 
                     <Row className="mt-5" data-aos="fade-right" data-aos-delay="50" data-aos-duration="300">
                         <Col xs="12">
-                            <div className="neumorphism-outer">
+                            <div className="neumorphism-o p-5">
                                 <div className="internHeader">
                                     UI/UX Design Project - Home Automation
                                 </div>
@@ -172,7 +172,7 @@ function AboutComponent() {
 
                     <Row className="mt-5" data-aos="fade-left" data-aos-delay="50" data-aos-duration="300">
                         <Col xs="12">
-                            <div className="neumorphism-outer">
+                            <div className="neumorphism-o p-5">
                                 <div className="internHeader">
                                     E-Portfolio Website Design - Pillai College
                                 </div>
@@ -185,7 +185,7 @@ function AboutComponent() {
 
                     <Row className="mt-5" data-aos="fade-right" data-aos-delay="50" data-aos-duration="300">
                         <Col xs="12">
-                            <div className="neumorphism-outer">
+                            <div className="neumorphism-o p-5">
                                 <div className="internHeader">
                                     Graphic Design Intern - Sporcial
                                 </div>
