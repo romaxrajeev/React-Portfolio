@@ -33,14 +33,14 @@ class WorkComponent extends Component{
     }
 
     render(){
-        if(this.props.title === "Development & UI/UX Projects"){
+        if(this.props.title === "Development Projects"){
             const Projects = this.props.category.map((work) => {
                 const Button1 = this.checkButton(work.button1)
                 const Button2 = this.checkButton(work.button2)
                 return(
-                    <Row className="mt-5" data-aos="fade-up" data-aos-duration="300" id={work.id}>
+                    <Row className="mt-5 mb-5" data-aos="fade-up" data-aos-duration="300" id={work.id}>
                         <Col xs="12">
-                            <div className="neumorphism-outer" id={work.id}>
+                            <div className="neumorphism-ou" id={work.id}>
                                 <Row>
                                     <Col xs="12" md="3">
                                         <img src={work.image} className="img-fluid m-auto work-image" height="300px" width="300px" alt={work.name} />
@@ -50,9 +50,9 @@ class WorkComponent extends Component{
                                         {work.name}
                                     </div>
                                     <div className="projectDetails mt-3 mt-md-0">
-                                        <p>{work.desc}</p>
-                                        <p><b>Tech Stack:</b> {work.techStack}</p>
-                                        <p style={{marginTop: "5%"}}>{Button1}       {Button2}</p>
+                                        <p className="text-project">{work.desc}</p>
+                                        <p><b className="text-subheading">Tech Stack:</b><span className="text-project">{work.techStack}</span></p>
+                                        <p style={{marginTop: "5%"}}>{Button1}&emsp;&emsp;{Button2}</p>
                                     </div>
                                     </Col>
                                 </Row>

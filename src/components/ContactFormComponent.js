@@ -2,6 +2,7 @@ import React from 'react';
 import { Row, Col } from 'reactstrap';
 import '../styles/styles.css';
 import 'jquery';
+import {APIKEY} from '../shared/APIKey';
 
 function ContactForm(){
     return(
@@ -17,7 +18,7 @@ function ContactForm(){
                 <Row className="mt-4">
                     <Col xs="12">
                         <form name="contact" action="https://api.web3forms.com/submit" method="post" >
-                            <input type="hidden" name="apikey" value="2be25e8e-c56e-4e9c-920a-029c5325c38f" />
+                            <input type="hidden" name="apikey" value={APIKEY} />
                             <input type="hidden" name="redirect" value="https://web3forms.com/success" />
                             <div className="form-group mt-1">
                                 <label htmlFor="email">Email:</label>

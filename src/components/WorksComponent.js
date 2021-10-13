@@ -16,7 +16,7 @@ function WorksComponent(){
                 <Col xs="12" md="3" className="align-content-center mt-5 mt-md-0">
                     <Link to="/uiux" style={{textDecoration: "none"}}>
                         <div className="neumorphism-o">
-                        <img src="img/uiux1.svg" className="img-fluid m-auto" alt="UIUX Designs" />
+                        <img src="img/uiux2.svg" className="img-fluid m-auto" alt="UIUX Designs" />
                         <p className="works-text">UI/UX Designs</p>
                         </div>
                     </Link>
@@ -24,7 +24,7 @@ function WorksComponent(){
                 <Col xs="12" md="3" className="align-content-center mt-5 mt-md-0">
                     <Link to="/logos" style={{textDecoration: "none"}}>
                         <div className="neumorphism-o">
-                            <img src="img/logos1.svg" className="img-fluid m-auto" alt="Logo Designs" />
+                            <img src="img/logos2.svg" className="img-fluid m-auto" alt="Logo Designs" />
                             <p className="works-text">Logo Designs</p>
                         </div>
                     </Link>
@@ -32,7 +32,7 @@ function WorksComponent(){
                 <Col xs="12" md="3" className="align-content-center mt-5 mt-md-0">
                     <Link to="/posters" style={{textDecoration: "none"}}>
                         <div className="neumorphism-o">
-                            <img src="img/posters1.svg" className="img-fluid m-auto" alt="Poster Designs" />
+                            <img src="img/posters2.svg" className="img-fluid m-auto" alt="Poster Designs" />
                             <p className="works-text">Poster Designs</p>
                         </div>
                     </Link>
@@ -40,7 +40,7 @@ function WorksComponent(){
                 <Col xs="12" md="3" className="align-content-center mt-5 mt-md-0">
                     <Link to="/projects" style={{textDecoration: "none"}}>
                         <div className="neumorphism-o">
-                            <img src="img/projects1.svg" className="img-fluid m-auto" alt="Dev Projects" />
+                            <img src="img/projects2.svg" className="img-fluid m-auto" alt="Dev Projects" />
                             <p className="works-text">Projects</p>
                         </div>
                     </Link>

@@ -311,3 +311,82 @@ label{
     background-color: $very-dark-grey;
     // margin-top: 350vh;
 }
+
+@media (max-width: 768px) {
+    .circle-container{
+        .circle{
+            width: 40vw;
+            height: 40vw;
+
+            .inner-circle{
+                width: 37vw;
+                height: 37vw;
+            }
+        }
+    }
+}
+
+.neumorphism-image-container{
+    box-shadow:  5px 5px 4px 0 rgba($color: $black, $alpha: 0.2),
+     -5px -5px 4px 0 rgba($color: $white, $alpha: 0.1);
+    margin: auto;
+    border-radius: 30px;
+    width: 100%;
+    height: 100%;
+    background-size: contain;
+    background-repeat: repeat;
+}
+
+.header-project{
+    color: $white;
+    text-align: center;
+    font-size: 1.15em;
+    font-family: $font;
+    font-weight: 700;
+}
+
+.text-project{
+    color: $text-grey;
+    font-size: 0.8em;
+    font-family: $font;
+    font-weight: 500;
+}
+
+.text-subheading{
+    color: $white;
+    text-align: center;
+    font-size: 1em;
+    font-family: $font;
+    font-weight: 500;
+}
+
+.project-image{
+    object-fit: contain;
+    width: 85%;
+    height: 85%;
+}
+
+.neumorphism-ou{
+   border: none !important;
+   box-shadow:  5px 5px 4px 0 rgba($color: $black, $alpha: 0.2),
+   -5px -5px 4px 0 rgba($color: $white, $alpha: 0.1);
+  border-radius: 30px !important;
+  background-color: $background;
+  text-align: center;
+  padding: 2em;
+}
+
+.rounded-rect{
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    background-color: #fff;
+    border-radius: 50px;
+    background-color: $white;
+    .col{
+        position: relative;
+        top: 50%;
+        transform: translateY(25%);
+    }
+}
