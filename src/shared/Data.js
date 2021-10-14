@@ -150,55 +150,55 @@ export const PROJECTS = [
 export const POSTERS = [
     {
         "id" : 0,
-        "image" : "img/posters/alone.jpg"
+        "image" : "img/posters/alone.jpeg"
     },
     {
         "id" : 1,
-        "image" : "img/posters/book.jpg"
+        "image" : "img/posters/book.jpeg"
     },
     {
         "id" : 2,
-        "image" : "img/posters/composite.jpg"
+        "image" : "img/posters/composite.jpeg"
     },
     {
         "id" : 3,
-        "image" : "img/posters/dhvani.jpg"
+        "image" : "img/posters/dhvani.jpeg"
     },
     {
         "id" : 4,
-        "image" : "img/posters/diegomiranda.jpg"
+        "image" : "img/posters/diegomiranda.jpeg"
     },
     {
         "id" : 5,
-        "image" : "img/posters/music.jpg"
+        "image" : "img/posters/music.jpeg"
     },
     {
         "id" : 6,
-        "image" : "img/posters/king.jpg"
+        "image" : "img/posters/king.jpeg"
     },
     {
         "id" : 7,
-        "image" : "img/posters/peace.jpg"
+        "image" : "img/posters/peace.jpeg"
     },
     {
         "id" : 8,
-        "image" : "img/posters/armaanmalik.jpg"
+        "image" : "img/posters/armaanmalik.jpeg"
     },
     {
         "id" : 9,
-        "image" : "img/posters/prajakta.jpg"
+        "image" : "img/posters/prajakta.jpeg"
     },
     {
         "id" : 10,
-        "image" : "img/posters/dog.jpg"
+        "image" : "img/posters/dog.jpeg"
     },
     {
         "id" : 11,
-        "image" : "img/posters/cat.jpg"
+        "image" : "img/posters/cat.jpeg"
     },
     {
         "id" : 12,
-        "image" : "img/posters/panda.jpg"
+        "image" : "img/posters/panda.jpeg"
     }
 ]
 

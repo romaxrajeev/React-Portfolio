@@ -14,7 +14,6 @@ import {BrowserRouter,Route,Switch, Redirect} from 'react-router-dom';
 import {UIUX, POSTERS, PROJECTS, LOGOS} from './shared/Data';
 import PosterComponent from './components/PosterComponent';
 
-
 class App extends Component {
   componentDidMount(){
     AOS.init();

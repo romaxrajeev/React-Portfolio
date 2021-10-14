@@ -3,6 +3,7 @@ import '../styles/styles.css';
 import {Row, Col} from 'reactstrap';
 import HeaderComponent from './HeaderComponent';
 import { Component } from 'react';
+import ScrollToTop from "react-scroll-to-top";
 
 export default class AboutComponent extends Component {
     componentDidMount(){
@@ -11,6 +12,7 @@ export default class AboutComponent extends Component {
     render(){
         return(
             <React.Fragment>
+                <ScrollToTop smooth />
                 <HeaderComponent type="about" />
                 <Row className="mt-3" data-aos="fade-up" data-aos-delay="100" data-aos-duration="300">
                     <Col xs="12" md="1"></Col>
@@ -34,7 +36,7 @@ export default class AboutComponent extends Component {
                         <div className="header-text" style={{marginTop:"7%"}}>
                             Skills
                         </div>
-                        <Row className="mt-5" data-aos="fade-right" data-aos-delay="100" data-aos-duration="300">
+                        <Row className="mt-5" data-aos="fade-up" data-aos-delay="100" data-aos-duration="300">
                             <Col xs="12">
                             <div className="skills-text">Front-End Development</div>
                                 <div className="neumorphinner mt-4 p-4">
@@ -62,7 +64,7 @@ export default class AboutComponent extends Component {
                             </Col>                        
                         </Row>
     
-                        <Row className="mt-5" data-aos="fade-left" data-aos-delay="100" data-aos-duration="300">
+                        <Row className="mt-5" data-aos="fade-up" data-aos-delay="100" data-aos-duration="300">
                             <Col xs="12">
                             <div className="skills-text">Back-End Development</div>
                                 <div className="neumorphinner mt-4 p-4">
@@ -90,7 +92,7 @@ export default class AboutComponent extends Component {
                             </Col>                        
                         </Row>
     
-                        <Row className="mt-5" data-aos="fade-right" data-aos-delay="100" data-aos-duration="300">
+                        <Row className="mt-5" data-aos="fade-up" data-aos-delay="150" data-aos-duration="300">
                             <Col xs="12">
                             <div className="skills-text">UI/UX and Graphic Design</div>
                                 <div className="neumorphinner mt-4 p-4">
@@ -125,7 +127,7 @@ export default class AboutComponent extends Component {
                             Internships
                         </div>
     
-                        <Row className="mt-5" data-aos="fade-right" data-aos-delay="50" data-aos-duration="300">
+                        <Row className="mt-5" data-aos="fade-up" data-aos-delay="50" data-aos-duration="300">
                             <Col xs="12">
                                 <div className="neumorphism-o p-5">
                                     <div className="internHeader">
@@ -138,7 +140,7 @@ export default class AboutComponent extends Component {
                             </Col>
                         </Row>
     
-                        <Row className="mt-5" data-aos="fade-right" data-aos-delay="50" data-aos-duration="300">
+                        <Row className="mt-5" data-aos="fade-up" data-aos-delay="50" data-aos-duration="300">
                             <Col xs="12">
                                 <div className="neumorphism-o p-5">
                                     <div className="internHeader">
@@ -151,7 +153,7 @@ export default class AboutComponent extends Component {
                             </Col>
                         </Row>
     
-                        <Row className="mt-5" data-aos="fade-left" data-aos-delay="50" data-aos-duration="300">
+                        <Row className="mt-5" data-aos="fade-up" data-aos-delay="50" data-aos-duration="300">
                             <Col xs="12">
                                 <div className="neumorphism-o p-5">
                                     <div className="internHeader">
@@ -164,7 +166,7 @@ export default class AboutComponent extends Component {
                             </Col>
                         </Row>
     
-                        <Row className="mt-5" data-aos="fade-right" data-aos-delay="50" data-aos-duration="300">
+                        <Row className="mt-5" data-aos="fade-up" data-aos-delay="50" data-aos-duration="300">
                             <Col xs="12">
                                 <div className="neumorphism-o p-5">
                                     <div className="internHeader">

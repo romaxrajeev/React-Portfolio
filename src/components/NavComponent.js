@@ -33,7 +33,7 @@ class NavBarComponent extends Component{
                     <Col xs="12">
                     <a href="https://www.facebook.com/romax.rajeev/" target="_blank" rel="noreferrer"><FontAwesomeIcon icon={faFacebook} color="#9e9e9e" size="1x" /></a>&emsp;&emsp;
                     <a href="https://www.instagram.com/desmax_designs/" target="_blank" rel="noreferrer"><FontAwesomeIcon icon={faInstagram} color="#9e9e9e" size="1x" /></a>&emsp;&emsp;
-                    <a href="https://twitter.com/romeo611199" target="_blank" rel="noreferrer"><FontAwesomeIcon icon={faTwitter} color="#9e9e9e" size="1x" /></a>&emsp;&emsp;
+                    <a href="https://twitter.com/romax_ak_rajeev" target="_blank" rel="noreferrer"><FontAwesomeIcon icon={faTwitter} color="#9e9e9e" size="1x" /></a>&emsp;&emsp;
                     <a href="https://www.linkedin.com/in/romax-rajeev/" target="_blank" rel="noreferrer"><FontAwesomeIcon icon={faLinkedin} color="#9e9e9e" size="1x" /></a>&emsp;&emsp;
                     </Col>
                 </Row>

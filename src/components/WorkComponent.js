@@ -3,6 +3,7 @@ import '../styles/styles.css';
 import {Row, Col} from 'reactstrap';
 import RenderWork from './RenderWork';
 import { Link } from 'react-router-dom';
+import ScrollToTop from 'react-scroll-to-top';
 
 class WorkComponent extends Component{
     componentDidMount() {
@@ -63,6 +64,7 @@ class WorkComponent extends Component{
             })
             return(
                 <React.Fragment>
+                    <ScrollToTop smooth />
                     <Row className="mt-5 d-flex" data-aos="fade-up" data-aos-delay="50" data-aos-duration="300">
                         <Col xs="12">
                             <div className="header-text" style={{marginTop: "2%"}}><Link to="/" style={{textDecoration:"none", color:"#9e9e9e", opacity: "1.0", fontWeight: "400", fontSize: "0.8em"}}>Home /&emsp;</Link>{this.props.title}</div>
@@ -96,6 +98,7 @@ class WorkComponent extends Component{
         });
         return(
             <React.Fragment>
+                <ScrollToTop smooth />
                 <Row className="mt-5" data-aos="fade-up" data-aos-delay="50" data-aos-duration="300">
                    <Col xs="12">
                        <div className="header-text" style={{marginTop: "2%"}}><Link to="/" style={{textDecoration:"none", color:"#9e9e9e", opacity: "1.0", fontWeight: "400", fontSize: "0.8em"}}>Home /&emsp;</Link>{this.props.title}</div>

@@ -3,6 +3,7 @@ import {Row,Col} from 'reactstrap';
 import '../styles/styles.css';
 import HalfWorkComponent from "./HalfWorkComponent";
 import {Link} from 'react-router-dom'
+import ScrollToTop from "react-scroll-to-top";
 
 export default class UiUx extends Component{
     
@@ -23,6 +24,7 @@ export default class UiUx extends Component{
     
         return(
             <React.Fragment>
+                <ScrollToTop smooth />
                 <Row className="mt-5 mb-5" data-aos="fade-up" data-aos-delay="50" data-aos-duration="300">
                     <Col xs="12">
                         <div className="header-text" style={{marginTop: "2%"}}><Link to="/" style={{textDecoration:"none", color:"#9e9e9e", opacity: "1.0", fontWeight: "400", fontSize: "0.8em"}}>Home /&emsp;</Link>Poster Designs</div>

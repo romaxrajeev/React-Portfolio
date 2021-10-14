@@ -3,15 +3,16 @@ import WorksComponent from './WorksComponent';
 import '../styles/styles.css';
 import HeaderComponent from './HeaderComponent';
 import ContactReviewComponent from './ContactReviewComponent';
-
+import ScrollToTop from 'react-scroll-to-top';
 class HomeComponent extends Component{
 
     render(){
             return(
                 <React.Fragment>
-                <HeaderComponent />
-                <WorksComponent />
-                <ContactReviewComponent />
+                    <ScrollToTop smooth />
+                    <HeaderComponent />
+                    <WorksComponent />
+                    <ContactReviewComponent />
                 </React.Fragment>
             );
         }
