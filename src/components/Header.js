@@ -4,7 +4,6 @@ import React from "react";
 import { Row, Col } from "reactstrap";
 import ThreeLines from "./ThreeLines";
 import FlowButton from "./FlowButton";
-import Tilt from 'react-tilt';
 
 export default function Header(){
     return(
@@ -27,9 +26,7 @@ export default function Header(){
                     </div>
                 </Col>
                 <Col xs ="12" lg="6" className="d-none d-lg-block">
-                    <Tilt className="Tilt" options={{max:50, speed:500}} >
-                        <img src="/img/sideimg.png" className="img-fluid main-img" alt="UX Designer" />
-                    </Tilt>
+                        <img src="/img/illustration.svg" className="img-fluid main-img" alt="UX Designer" />
                 </Col>
             </Row>
         </React.Fragment>

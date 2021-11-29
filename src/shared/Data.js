@@ -116,14 +116,6 @@ export const PROJECTS = [
     },
     {
         "id" : 6,
-        "name" : "Calculator - Cordova",
-        "image" : "img/projects/calc.png",
-        "desc" : "College Assignment to develop a mobile app for a minimalist calculator.",
-        "techStack" : "CSS, JS, CordovaJS",
-        "button1" : {"link":"https://github.com/romeo611199/CalculatorCordova","type":"Github"}
-    },
-    {
-        "id" : 7,
         "name" : "ASK E-Portfolio - Pillai College of Engineering",
         "image" : "img/projects/ask.png",
         "desc" : "An E-Portfolio for students of Pillai College of Engineering to showcase their skills, experiences, projects like a digital resume.",

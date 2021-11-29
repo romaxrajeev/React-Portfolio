@@ -5,7 +5,7 @@ import ThreeLines from "./ThreeLines";
 
 export default function AboutMe() {
     return(
-        <React.Fragment className="mt-2">
+        <div className="mt-2">
             <Row className="mt-5" id="about">
                 <Col xs ="12">
                     <div className="heading">
@@ -26,7 +26,7 @@ export default function AboutMe() {
                             Graphic Designer. I will be completing the <span className="underline">Professional Certificate in UX Design</span> by Google (Coursera).
                         </p>
                         <p className="mt-2 mb-3 underline">
-                            Additionally, I am an <span className="underline"><a target="_blank" href="https://www.credly.com/badges/9d331d45-bf26-4939-bca6-d5acdded291e/public_url">AWS Certified Cloud Practitioner</a></span> and pursue competitive programming as a hobby.
+                            Additionally, I am an <span className="underline"><a target="_blank" rel="noreferrer" href="https://www.credly.com/badges/9d331d45-bf26-4939-bca6-d5acdded291e/public_url">AWS Certified Cloud Practitioner</a></span> and pursue competitive programming as a hobby.
                         </p>
                     </div>
                 </Col>
@@ -34,6 +34,6 @@ export default function AboutMe() {
                     <CircleImage />
                 </Col>
             </Row>
-        </React.Fragment>
+        </div>
     )
 }

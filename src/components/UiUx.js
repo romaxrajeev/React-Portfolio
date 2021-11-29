@@ -5,8 +5,7 @@ import UiUxImage from "./UiUxImage";
 import {UIUX} from "../shared/Data";
 
 export default function UiUx(){
-    const UIImages = UIUX.projects.map( (work) => <UiUxImage work={work} /> )
-    console.log(UIImages)
+    const UIImages = UIUX.projects.map( (work) => <UiUxImage work={work} key={work.id} /> )
     return (
         <div className="mt-3">
             <Row className="mt-5" id="uiux">

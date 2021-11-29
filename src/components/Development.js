@@ -5,7 +5,7 @@ import { PROJECTS } from "../shared/Data";
 import DevelopmentCard from "./DevelopmentCard";
 
 export default function Development() {
-    const DEV = PROJECTS.map( (work) => <DevelopmentCard work = {work} /> )
+    const DEV = PROJECTS.map( (work) => <DevelopmentCard work = {work} key={work.id} /> )
     return(
         <div className="mt-2">
             <Row className="mt-5" id="dev">

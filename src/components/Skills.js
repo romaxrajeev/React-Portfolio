@@ -4,7 +4,7 @@ import ThreeLines from "./ThreeLines";
 
 export default function Skills() {
     return(
-        <React.Fragment className="mt-2">
+        <div className="mt-2">
             <Row className="mt-5" id="about">
                 <Col xs ="12">
                     <div className="heading">
@@ -189,6 +189,6 @@ export default function Skills() {
                     </Row>
                 </Col>
             </Row>
-        </React.Fragment>
+        </div>
     )
 }

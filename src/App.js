@@ -16,7 +16,7 @@ export default class App extends Component {
   render(){
     return (
       <BrowserRouter style={{position: 'relative', minHeight: "100vh"}}>
-        <img src="/img/background.png" className="header-img d-none d-md-block" alt="side-elements" />
+        <img src="/img/background.jpg" className="header-img d-none d-md-block" alt="side-elements" />
         <Container style={{maxWidth:"85%"}}>
           <Home />
           <Footer />

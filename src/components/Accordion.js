@@ -22,26 +22,25 @@ export default class Accordion extends Component{
     }
 
     render(){
-        console.log(this.props.category)
         const order = this.assignColumns(this.props.category);
         const Col1 = order[0].map((work) => {
             if(work !== undefined)
-            return(<RenderOther work={work} />);
+            return(<RenderOther work={work} key={work.id} />);
             return("");
         });
         const Col2 = order[1].map((work) => {
             if(work !== undefined)
-            return(<RenderOther work={work} />);
+            return(<RenderOther work={work} key={work.id} />);
             return("");
         });
         const Col3 = order[2].map((work) => {
             if(work !== undefined)
-            return(<RenderOther work={work} />);
+            return(<RenderOther work={work} key={work.id} />);
             return("");
         });
         const Col4 = order[3].map((work) => {
             if(work !== undefined)
-            return(<RenderOther work={work} />);
+            return(<RenderOther work={work} key={work.id} />);
             return("");
         });
         return(

@@ -8,7 +8,7 @@ import { faEnvelopeSquare } from "@fortawesome/free-solid-svg-icons";
 
 export default function Contact() {
     return(
-        <React.Fragment className="mt-2">
+        <div className="mt-2">
             <Row className="mt-5" id="contact">
                 <Col xs ="12" lg="5">
                     <div className="heading">
@@ -91,6 +91,6 @@ export default function Contact() {
                     </Row>
                 </Col>
             </Row>
-        </React.Fragment>
+        </div>
     )
 }
