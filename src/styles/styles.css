@@ -289,16 +289,16 @@ body {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
+}
+
+.other-works > img {
+  text-align: center;
 }
 
 span.underline {
@@ -323,11 +323,11 @@ span.underline a:hover {
       -ms-flex-pack: center;
           justify-content: center;
   text-align: center;
-  height: 50vh;
+  height: 75%;
 }
 
 .my-image .imgg {
-  height: 40vh;
+  height: inherit;
 }
 
 .skills {
@@ -428,44 +428,7 @@ label {
 }
 
 .social-icons .social .social-icon a {
-  z-index: 100;
-}
-
-.social-icons .social .social-icon.background::before {
-  content: '';
-  position: absolute;
-  top: 0;
-  bottom: 0;
-  left: 0;
-  right: 0;
-  height: 10vh;
-  width: 10vh;
-  border-radius: 50%;
-  background-color: #fefefe;
-  z-index: 0;
-  margin-left: 1em;
-  margin-right: 1em;
-  -webkit-transform: scaleX(0);
-          transform: scaleX(0);
-  -webkit-transition: -webkit-transform 300ms ease-in-out;
-  transition: -webkit-transform 300ms ease-in-out;
-  transition: transform 300ms ease-in-out;
-  transition: transform 300ms ease-in-out, -webkit-transform 300ms ease-in-out;
-}
-
-.social-icons .social .social-icon.background:hover::before {
-  -webkit-transform: scaleX(1);
-          transform: scaleX(1);
-}
-
-.social-icons .social .social-icon.background > a {
   color: #fefefe;
-  -webkit-transition: color 300ms ease-in-out;
-  transition: color 300ms ease-in-out;
-}
-
-.social-icons .social .social-icon.background:hover > a {
-  color: #2a2a2a;
 }
 
 .footer {
@@ -486,7 +449,10 @@ label {
   margin-left: -12%;
 }
 
-@media only screen and (max-width: 992px) {
+@media only screen and (max-width: 1200px) {
+  .header-heading {
+    margin-top: 8vh;
+  }
   .buttons {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -513,52 +479,9 @@ label {
     width: 50vh;
     border-radius: 2em;
   }
-  .social {
-    position: relative;
-  }
-  .social .social-icon {
-    width: 2vh;
-    height: 2vh;
-    border-radius: 50%;
-    background-color: rgba(30, 30, 30, 0.3);
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
-    margin-left: 1em;
-    margin-right: 1em;
-  }
-  .social .social-icon a {
-    z-index: 100;
-  }
-  .social-icon.background::before {
-    content: '';
-    position: absolute;
-    top: 0;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    height: 5vh;
-    width: 5vh;
-    border-radius: 50%;
-    background-color: #fefefe;
-    z-index: 0;
-    margin-left: 1em;
-    margin-right: 1em;
-    -webkit-transform: scaleX(0);
-            transform: scaleX(0);
-    -webkit-transition: -webkit-transform 300ms ease-in-out;
-    transition: -webkit-transform 300ms ease-in-out;
-    transition: transform 300ms ease-in-out;
-    transition: transform 300ms ease-in-out, -webkit-transform 300ms ease-in-out;
-  }
-  .social-icons {
-    padding: 1em;
+  .social-icon {
+    width: 10vw;
+    height: 10vw;
   }
 }
 /*# sourceMappingURL=styles.css.map */

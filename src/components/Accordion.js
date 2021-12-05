@@ -47,22 +47,22 @@ export default class Accordion extends Component{
             <React.Fragment>
                 <ScrollToTop smooth />
                 <Row className="mb-5">
-                   <Col xs="12" md="3">
+                   <Col xs="12" sm="6" md="3">
                        <ul id="works-accordion">
                            {Col1}
                        </ul>
                    </Col>
-                   <Col xs="12" md="3">
+                   <Col xs="12" sm="6" md="3">
                        <ul id="works-accordion">
                            {Col2}
                        </ul>
                    </Col>
-                   <Col xs="12" md="3">
+                   <Col xs="12" sm="6" md="3">
                        <ul id="works-accordion">
                            {Col3}
                        </ul>
                    </Col>
-                   <Col xs="12" md="3">
+                   <Col xs="12" sm="6" md="3">
                        <ul id="works-accordion">
                            {Col4}
                        </ul>

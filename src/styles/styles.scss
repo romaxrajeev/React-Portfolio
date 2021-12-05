@@ -257,9 +257,12 @@ body{
     background-color: rgba(30,30,30,0.6);
     padding: 1em 1.5em;
     display: flex;
-    flex-direction: column;
     align-items: center;
     justify-content: center;
+}
+
+.other-works > img{
+    text-align: center;
 }
 
 span.underline{
@@ -280,10 +283,10 @@ span.underline{
     display: flex;
     justify-content: center;
     text-align: center;
-    height: 50vh;
+    height: 75%;
 
     .imgg{
-        height: 40vh;
+        height: inherit;
     }
 }
 
@@ -348,39 +351,8 @@ label{
             margin-right: 1em;
     
             a{
-                z-index: 100;
+                color: $white;
             }
-        }
-    
-        .social-icon.background::before{
-            content: '';
-            position: absolute;
-            top: 0;
-            bottom: 0;
-            left: 0;
-            right: 0;
-            height: 10vh;
-            width: 10vh;
-            border-radius: 50%;
-            background-color: $white;
-            z-index: 0;
-            margin-left: 1em;
-            margin-right: 1em;
-            transform: scaleX(0);
-            transition: transform 300ms ease-in-out;
-        }
-    
-        .social-icon.background:hover::before{
-            transform: scaleX(1);
-        }
-    
-        .social-icon.background > a{
-            color: $white;
-            transition: color 300ms ease-in-out;
-        }
-    
-        .social-icon.background:hover > a{
-            color: $very-dark-grey;
         }
     }
     
@@ -398,7 +370,11 @@ label{
     margin-left: -12%;
 }
 
-@media only screen and (max-width: 992px)  {
+@media only screen and (max-width: 1200px)  {
+    .header-heading{
+        margin-top: 8vh;
+    }
+    
     .buttons{
         display: flex;
         align-items: center;
@@ -416,43 +392,8 @@ label{
         }
     }
 
-    .social{
-        position: relative;
-        .social-icon{
-            width: 2vh;
-            height: 2vh;
-            border-radius: 50%;
-            background-color: rgba(30,30,30,0.3);
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            margin-left: 1em;
-            margin-right: 1em;
-    
-            a{
-                z-index: 100;
-            }
-        }
-    }
-    
-        .social-icon.background::before{
-            content: '';
-            position: absolute;
-            top: 0;
-            bottom: 0;
-            left: 0;
-            right: 0;
-            height: 5vh;
-            width: 5vh;
-            border-radius: 50%;
-            background-color: $white;
-            z-index: 0;
-            margin-left: 1em;
-            margin-right: 1em;
-            transform: scaleX(0);
-            transition: transform 300ms ease-in-out;
-        }
-    .social-icons{
-        padding: 1em;
+    .social-icon{
+        width: 10vw;
+        height: 10vw;
     }
 }
