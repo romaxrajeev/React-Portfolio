@@ -8,7 +8,7 @@ export default function UiUx(){
     const UIImages = UIUX.projects.map( (work) => <UiUxImage work={work} key={work.id} /> )
     return (
         <div className="mt-3">
-            <Row className="mt-5" id="uiux">
+            <Row className="mt-5" id="uiux" data-aos="fade-up">
                 <Col xs ="12">
                     <div className="heading">
                         UI / UX Projects

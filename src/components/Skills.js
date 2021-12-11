@@ -5,7 +5,7 @@ import ThreeLines from "./ThreeLines";
 export default function Skills() {
     return(
         <div className="mt-2">
-            <Row className="mt-5" id="about">
+            <Row className="mt-5" id="about" data-aos="fade-up">
                 <Col xs ="12">
                     <div className="heading">
                         Skills
@@ -14,10 +14,10 @@ export default function Skills() {
                 </Col>
                 <Col xs ="12" lg="6" />
             </Row>
-            <Row className="mt-3">
+            <Row className="mt-3" data-aos="fade-up">
                 <Col xs="12">
-                    <div className="header-text mt-2">UI / UX and Graphic Design Tools</div>
-                    <Row className="skills-container mt-3 mb-3 pt-5 pb-2 pr-3 pl-3 pl-3 pr-3">
+                    <div className="header-text mt-2" data-aos="fade-up">UI / UX and Graphic Design Tools</div>
+                    <Row className="skills-container mt-3 mb-3 pt-5 pb-2 pr-3 pl-3 pl-3 pr-3" data-aos="fade-up">
                         <Col xs="12">
                             <Row className="pb-3 skills">
                                 <Col xs="6" md="2">
@@ -42,7 +42,7 @@ export default function Skills() {
                                 </Col> 
                                 <Col xs="6" md="2">
                                     <div className="skills mt-3 mt-md-0">
-                                        <img src="img/indesign.svg" className="img-fluid text-center" alt="adobe indesign" /> 
+                                        <img src="img/indesign.svg" className="img-fluid text-center" style={{width:"86%"}} alt="adobe indesign" /> 
                                     </div>
                                 </Col>
                                 <Col xs="6" md="2">
@@ -74,8 +74,8 @@ export default function Skills() {
                         </Col>
                     </Row>
 
-                    <div className="header-text mt-5">Front-End Development</div>
-                    <Row className="skills-container mt-3 mb-3 pt-5 pb-2 pr-3 pl-3">
+                    <div className="header-text mt-5" data-aos="fade-up">Front-End Development</div>
+                    <Row className="skills-container mt-3 mb-3 pt-5 pb-2 pr-3 pl-3" data-aos="fade-up">
                         <Col xs="12">
                             <Row className="pb-3 skills">
                                 <Col xs="6" md="2">
@@ -134,8 +134,8 @@ export default function Skills() {
                         
                     </Row>
 
-                    <div className="header-text mt-5">Back-End Development</div>
-                    <Row className="skills-container mt-3 mb-3 pt-5 pb-2 pr-3 pl-3 ">
+                    <div className="header-text mt-5" data-aos="fade-up">Back-End Development</div>
+                    <Row className="skills-container mt-3 mb-3 pt-5 pb-2 pr-3 pl-3 " data-aos="fade-up">
                         <Col xs="12">
                             <Row className="pb-3 skills">
                                 <Col xs="6" md="2">

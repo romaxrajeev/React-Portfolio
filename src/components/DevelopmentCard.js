@@ -3,7 +3,7 @@ import { Row,Col } from "reactstrap";
 import FlowButton from "./FlowButton";
 export default function DevelopmentCard({work}) {
     return(
-        <Row className="mt-5 projects" key={work.id}>
+        <Row className="mt-5 projects" key={work.id} data-aos="fade-up">
             <Col xs="2" className="d-none d-xl-block">
                 <img src={work.image} className="img-fluid" alt={work.name} />
             </Col>

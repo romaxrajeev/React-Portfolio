@@ -1,12 +1,11 @@
 import React from "react";
 import { Row, Col } from "reactstrap";
-import CircleImage from "./CircleImage";
 import ThreeLines from "./ThreeLines";
 
 export default function AboutMe() {
     return(
         <div className="mt-2">
-            <Row className="mt-5" id="about">
+            <Row className="mt-5" id="about" data-aos="fade-up" data-aos-duration="100">
                 <Col xs ="12">
                     <div className="heading">
                         About Me

@@ -80,7 +80,7 @@ export const PROJECTS = [
         "image" : "img/projects/neumorphism.png",
         "desc" : "A lightweight neumorphism implementation with CSS and JS. It supports both light mode and dark mode.",
         "techStack" : "CSS, JS and jQuery",
-        "button1" : {"link":"https://github.com/romeo611199/neumorphism-css","type":"Github"}
+        "button1" : {"link":"https://github.com/romeo611199/neumorphism-css","type":"Check out on Github"}
     },
     {
         "id" : 2,
@@ -88,7 +88,7 @@ export const PROJECTS = [
         "image" : "img/projects/demanddoctor.png",
         "desc" : "Demand Doctor enables patients in emergency (like heart-attacks, accidents, animal bites) to contact available doctors (not necessarily local).",
         "techStack" : "CSS3, JS, Bootstrap4, CordovaJS and Firebase",
-        "button1" : {"link":"https://youtu.be/SbK0YOVX5Qk","type":"Youtube"}
+        "button1" : {"link":"https://youtu.be/SbK0YOVX5Qk","type":"Check out on Youtube"}
     },
     {
         "id" : 3,
@@ -96,7 +96,7 @@ export const PROJECTS = [
         "image" : "img/projects/financier.png",
         "desc" : "Financier - a Finance application, which can be used to track user's financial goals, track their progress and help them save money each month.",
         "techStack" : "HTML, CSS, JS, Flask and Firebase",
-        "button1" : {"link":"https://github.com/romeo611199/Finance","type":"Github"}
+        "button1" : {"link":"https://github.com/romeo611199/Finance","type":"Check out on Github"}
     },
     {
         "id" : 4,
@@ -104,7 +104,7 @@ export const PROJECTS = [
         "image" : "img/projects/sentiment.png",
         "desc" : "Analysis of sentiments and sarcasm detection from code-mixed posts, comments and tweets using a Lexicon based approach and Deep Learning based approach.",
         "techStack" : "Python, NLP and Scikit-Learn",
-        "button1" : {"link":"https://github.com/KSushrut/CodeMixSentimentAnalysis","type":"Github"}
+        "button1" : {"link":"https://github.com/KSushrut/CodeMixSentimentAnalysis","type":"Check out on Github"}
     },
     {
         "id" : 5,
@@ -112,7 +112,7 @@ export const PROJECTS = [
         "image" : "img/projects/msp.png",
         "desc" : "Semester 6 Project which predicts the performance of a Bollywood movie based on past data, and also with Youtube statistics for trailer videos.",
         "techStack" : "HTML, CSS, JS, Flask, Python and Scikit-Learn",
-        "button1" : {"link":"https://github.com/romeo611199/movie-success-prediction-data-mining/","type":"Github"}
+        "button1" : {"link":"https://github.com/romeo611199/movie-success-prediction-data-mining/","type":"Check out on Github"}
     },
     {
         "id" : 6,
@@ -120,7 +120,7 @@ export const PROJECTS = [
         "image" : "img/projects/ask.png",
         "desc" : "An E-Portfolio for students of Pillai College of Engineering to showcase their skills, experiences, projects like a digital resume.",
         "techStack" : "HTML, CSS, JS, Flask",
-        "button1" : {"link":"https://github.com/romeo611199/ask-cv-portfolio.github.io","type":"Github"}
+        "button1" : {"link":"https://github.com/romeo611199/ask-cv-portfolio.github.io","type":"Check out on Github"}
     }
 ]
 

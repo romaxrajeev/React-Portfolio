@@ -9,7 +9,7 @@ import { faEnvelopeSquare } from "@fortawesome/free-solid-svg-icons";
 export default function Contact() {
     return(
         <div className="mt-2">
-            <Row className="mt-5" id="contact">
+            <Row className="mt-5" id="contact" data-aos="fade-up" data-aos-duration="100">
                 <Col xs ="12" xl="5">
                     <div className="heading">
                         Contact Me

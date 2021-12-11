@@ -9,7 +9,7 @@ export default function Header(){
     return(
         <React.Fragment>
             <Row style={{minHeight:"85vh"}}>
-                <Col xs ="12" xl="6" className="order-last order-xl-first">
+                <Col xs ="12" xl="6" className="order-last order-xl-first" data-aos="fade-up" data-aos-duration="150">
                     <div className="header-heading text-center text-xl-left">
                         Self-Taught UI/UX Designer & Developer
                     </div>
@@ -25,7 +25,7 @@ export default function Header(){
                         <FlowButton name="Check out Development Projects" link="dev" />
                     </div>
                 </Col>
-                <Col xs ="12" xl="6" className="order-first order-xl-last">
+                <Col xs ="12" xl="6" className="order-first order-xl-last" data-aos="fade-up" data-aos-delay="250">
                         <img src="/img/illustration.svg" className="img-fluid main-img" alt="UX Designer" />
                 </Col>
             </Row>
