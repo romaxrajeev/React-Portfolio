@@ -9,8 +9,8 @@ import { faEnvelopeSquare } from "@fortawesome/free-solid-svg-icons";
 export default function Contact() {
     return(
         <div className="mt-2">
-            <Row className="mt-5" id="contact" data-aos="fade-up" data-aos-duration="100">
-                <Col xs ="12" xl="5">
+            <Row className="mt-5" id="contact">
+                <Col xs ="12" lg="5">
                     <div className="heading">
                         Contact Me
                     </div>
@@ -47,48 +47,47 @@ export default function Contact() {
                             </div>
                         </form>
                 </Col>
-                <Col xs="12" xl="1"></Col>
-                <Col xs ="12" xl="6" className="mt-4 mt-xl-0">
+                <Col xs="12" lg="1"></Col>
+                <Col xs ="12" lg="6" className="mt-4 mt-lg-0">
                     <div className="heading">
                         Social Profiles
                     </div>
                     <Row className="social-icons mt-4">
-                        <Col className="social mt-2 mt-xl-0" xs="3" lg="2">
+                        <div className="social mt-2 mt-lg-0">
                             <div className="social-icon background">
                                     <a href="https://dribbble.com/desmaxdesigns" target="_blank" rel="noreferrer">
                                         <FontAwesomeIcon icon={faDribbble} size="2x" />
                                     </a>
                             </div>
-                        </Col>
-                        <Col className="social mt-2 mt-xl-0" xs="3" lg="2">
+                        </div>
+                        <div className="social mt-2 mt-lg-0">
                             <div className="social-icon background">
                                 <a href="https://www.instagram.com/desmax_designs/" target="_blank" rel="noreferrer">
                                     <FontAwesomeIcon icon={faInstagram} size="2x" />
                                 </a>
                             </div>
-                        </Col>
-                        <Col className="social mt-2 mt-xl-0" xs="3" lg="2">
+                        </div>
+                        <div className="social mt-2 mt-lg-0">
                             <div className="social-icon background">
-                            <   a href="https://www.linkedin.com/in/romax-rajeev/" target="_blank" rel="noreferrer">
+                                <a href="https://www.linkedin.com/in/romax-rajeev/" target="_blank" rel="noreferrer">
                                     <FontAwesomeIcon icon={faLinkedinIn} size="2x" />
                                 </a>
                             </div>
-                        </Col>
-                        <Col className="social mt-2 mt-xl-0" xs="3" lg="2">
+                        </div>
+                        <div className="social mt-2 mt-lg-0">
                             <div className="social-icon background">
                                 <a href="https://github.com/romeo611199" target="_blank" rel="noreferrer">
                                     <FontAwesomeIcon icon={faGithub} size="2x" />
                                 </a>
                             </div>
-                        </Col>
-                        <Col className="social mt-2 mt-xl-0" xs="3" lg="2">
+                        </div>
+                        <div className="social mt-2 mt-lg-0">
                             <div className="social-icon background">
                                 <a href="mailto:romaxakrajeev@gmail.com" target="_blank" rel="noreferrer">
                                     <FontAwesomeIcon icon={faEnvelopeSquare} size="2x" />
                                 </a>
                             </div>
-                        </Col>
-                                        
+                        </div>                        
                     </Row>
                 </Col>
             </Row>

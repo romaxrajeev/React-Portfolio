@@ -7,7 +7,7 @@ import ThreeLines from "./ThreeLines";
 export default function OtherDesigns(){
     return (
         <React.Fragment>
-            <Row className="mt-5" id="other-designs" data-aos="fade-up"> 
+            <Row className="mt-5" id="other-designs"> 
                 <Col xs ="12">
                     <div className="heading">
                         Other Designs

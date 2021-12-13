@@ -5,7 +5,7 @@ import ThreeLines from "./ThreeLines";
 export default function Skills() {
     return(
         <div className="mt-2">
-            <Row className="mt-5" id="about" data-aos="fade-up">
+            <Row className="mt-5" id="about">
                 <Col xs ="12">
                     <div className="heading">
                         Skills
@@ -14,30 +14,30 @@ export default function Skills() {
                 </Col>
                 <Col xs ="12" lg="6" />
             </Row>
-            <Row className="mt-3" data-aos="fade-up">
+            <Row className="mt-3">
                 <Col xs="12">
-                    <div className="header-text mt-2" data-aos="fade-up">UI / UX and Graphic Design Tools</div>
-                    <Row className="skills-container mt-3 mb-3 pt-5 pb-2 pr-3 pl-3 pl-3 pr-3" data-aos="fade-up">
+                    <div className="header-text mt-2">UI / UX and Graphic Design Tools</div>
+                    <Row className="skills-container mt-3 mb-3 pt-5 pb-2 pr-3 pl-3 pl-3 pr-3">
                         <Col xs="12">
                             <Row className="pb-3 skills">
                                 <Col xs="6" md="2">
                                     <div className="skills mt-md-0">
-                                        <img src="img/adobexd.svg" className="img-fluid text-center" alt="adobe xd" />
+                                        <img src="img/illustrator.svg" className="img-fluid text-center" alt="illustrator" />
                                     </div>
                                 </Col> 
                                 <Col xs="6" md="2">
                                     <div className="skills mt-md-0">
+                                        <img src="img/photoshop.svg" className="img-fluid text-center" alt="photoshop" />
+                                    </div>
+                                </Col> 
+                                <Col xs="6" md="2">
+                                    <div className="skills mt-3 mt-md-0">
+                                        <img src="img/adobexd.svg" className="img-fluid text-center" alt="adobexd" />
+                                    </div>
+                                </Col> 
+                                <Col xs="6" md="2">
+                                    <div className="skills mt-3 mt-md-0">
                                         <img src="img/figma.svg" className="img-fluid text-center" alt="figma" />
-                                    </div>
-                                </Col> 
-                                <Col xs="6" md="2">
-                                    <div className="skills mt-3 mt-md-0">
-                                        <img src="img/illustrator.svg" className="img-fluid text-center" alt="adobe illustrator" />
-                                    </div>
-                                </Col> 
-                                <Col xs="6" md="2">
-                                    <div className="skills mt-3 mt-md-0">
-                                        <img src="img/photoshop.svg" className="img-fluid text-center" alt="adobe photoshop" />
                                     </div>
                                 </Col> 
                                 <Col xs="6" md="2">
@@ -46,18 +46,10 @@ export default function Skills() {
                                     </div>
                                 </Col>
                                 <Col xs="6" md="2">
-                                    <div className="skills mt-3 mt-md-0">
-                                        <img src="img/corel.svg" className="img-fluid text-center" alt="corel draw" /> 
-                                    </div>
+                                    
                                 </Col> 
                             </Row>
                             <Row className="d-none d-lg-flex">
-                                <Col xs="12" lg="2">
-                                    <p className="header-text text-center mt-3">Adobe XD</p>
-                                </Col>
-                                <Col xs="12" lg="2">
-                                    <p className="header-text text-center mt-3">Figma</p>
-                                </Col>
                                 <Col xs="12" lg="2">
                                     <p className="header-text text-center mt-3">Illustrator</p>
                                 </Col>
@@ -65,17 +57,23 @@ export default function Skills() {
                                     <p className="header-text text-center mt-3">Photoshop</p>
                                 </Col>
                                 <Col xs="12" lg="2">
-                                    <p className="header-text text-center mt-3">InDesign</p>
+                                    <p className="header-text text-center mt-3">Adobe XD</p>
+                                </Col>
+                                <Col xs="12" lg="2">
+                                    <p className="header-text text-center mt-3">Figma</p>
                                 </Col>
                                 <Col xs="12" lg="2">
                                     <p className="header-text text-center mt-3">Corel Draw</p>
+                                </Col>
+                                <Col xs="12" lg="2">
+                                    
                                 </Col>
                             </Row>
                         </Col>
                     </Row>
 
-                    <div className="header-text mt-5" data-aos="fade-up">Front-End Development</div>
-                    <Row className="skills-container mt-3 mb-3 pt-5 pb-2 pr-3 pl-3" data-aos="fade-up">
+                    <div className="header-text mt-5">Front-End Development</div>
+                    <Row className="skills-container mt-3 mb-3 pt-5 pb-2 pr-3 pl-3">
                         <Col xs="12">
                             <Row className="pb-3 skills">
                                 <Col xs="6" md="2">
@@ -134,8 +132,8 @@ export default function Skills() {
                         
                     </Row>
 
-                    <div className="header-text mt-5" data-aos="fade-up">Back-End Development</div>
-                    <Row className="skills-container mt-3 mb-3 pt-5 pb-2 pr-3 pl-3 " data-aos="fade-up">
+                    <div className="header-text mt-5">Back-End Development</div>
+                    <Row className="skills-container mt-3 mb-3 pt-5 pb-2 pr-3 pl-3 ">
                         <Col xs="12">
                             <Row className="pb-3 skills">
                                 <Col xs="6" md="2">
@@ -158,12 +156,12 @@ export default function Skills() {
                                 </Col> 
                                 <Col xs="6" md="2">
                                     <div className="skills mt-3 mt-md-0">
-                                        <img src="img/firebase.svg" className="img-fluid text-center" style={{width:"60%"}} alt="firebase" /> 
+                                        <img src="img/firebase.svg" className="img-fluid text-center" alt="firebase" /> 
                                     </div>
                                 </Col>
                                 <Col xs="6" md="2">
                                     <div className="skills mt-3 mt-md-0">
-                                        <img src="img/dynamodb.svg" className="img-fluid text-center" style={{width:"60%"}} alt="dynamodb" /> 
+                                        <img src="img/dynamodb.svg" height="80%" className="img-fluid text-center lg-svg" alt="dynamodb" /> 
                                     </div>
                                 </Col> 
                             </Row>

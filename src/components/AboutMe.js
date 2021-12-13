@@ -5,7 +5,7 @@ import ThreeLines from "./ThreeLines";
 export default function AboutMe() {
     return(
         <div className="mt-2">
-            <Row className="mt-5" id="about" data-aos="fade-up" data-aos-duration="100">
+            <Row className="mt-5" id="about">
                 <Col xs ="12">
                     <div className="heading">
                         About Me
@@ -29,8 +29,8 @@ export default function AboutMe() {
                         </p>
                     </div>
                 </Col>
-                <Col xs="12" lg="6" style={{marginBottom:"0%"}} className="d-none d-xl-block">
-                    {/* <CircleImage /> */}
+                <Col xs="12" lg="6">
+                    
                 </Col>
             </Row>
         </div>

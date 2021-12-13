@@ -6,7 +6,7 @@ export default function Footer(){
             <Row className="mt-5 d-none d-lg-block">
                 <Col xs="12">
                     <div className="footer mt-5">
-                        &copy; 2021. All Rights Reserved. Designed and brought to life by Romax Rajeev.
+                        &copy; 2021. Romax Rajeev. All Rights Reserved.
                     </div>
                 </Col>
             </Row>
