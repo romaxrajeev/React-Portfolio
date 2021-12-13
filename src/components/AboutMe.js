@@ -29,8 +29,8 @@ export default function AboutMe() {
                         </p>
                     </div>
                 </Col>
-                <Col xs="12" lg="6">
-                    
+                <Col xs="12" lg="6" style={{marginBottom:"0%"}} className="d-none d-xl-block">
+                    {/* <CircleImage /> */}
                 </Col>
             </Row>
         </div>

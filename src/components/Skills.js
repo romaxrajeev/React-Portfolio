@@ -22,27 +22,27 @@ export default function Skills() {
                             <Row className="pb-3 skills">
                                 <Col xs="6" md="2">
                                     <div className="skills mt-md-0">
-                                        <img src="img/illustrator.svg" className="img-fluid text-center" alt="illustrator" />
-                                    </div>
-                                </Col> 
-                                <Col xs="6" md="2">
-                                    <div className="skills mt-md-0">
-                                        <img src="img/photoshop.svg" className="img-fluid text-center" alt="photoshop" />
-                                    </div>
-                                </Col> 
-                                <Col xs="6" md="2">
-                                    <div className="skills mt-3 mt-md-0">
                                         <img src="img/adobexd.svg" className="img-fluid text-center" alt="adobexd" />
                                     </div>
                                 </Col> 
                                 <Col xs="6" md="2">
-                                    <div className="skills mt-3 mt-md-0">
+                                    <div className="skills mt-md-0">
                                         <img src="img/figma.svg" className="img-fluid text-center" alt="figma" />
                                     </div>
                                 </Col> 
                                 <Col xs="6" md="2">
                                     <div className="skills mt-3 mt-md-0">
-                                        <img src="img/indesign.svg" className="img-fluid text-center" style={{width:"86%"}} alt="adobe indesign" /> 
+                                        <img src="img/illustrator.svg" className="img-fluid text-center" alt="illustrator" />
+                                    </div>
+                                </Col> 
+                                <Col xs="6" md="2">
+                                    <div className="skills mt-3 mt-md-0">
+                                        <img src="img/photoshop.svg" className="img-fluid text-center" alt="photoshop" />
+                                    </div>
+                                </Col> 
+                                <Col xs="6" md="2">
+                                    <div className="skills mt-3 mt-md-0">
+                                        <img src="img/corel.svg" className="img-fluid text-center" alt="corel draw" /> 
                                     </div>
                                 </Col>
                                 <Col xs="6" md="2">
@@ -51,16 +51,16 @@ export default function Skills() {
                             </Row>
                             <Row className="d-none d-lg-flex">
                                 <Col xs="12" lg="2">
-                                    <p className="header-text text-center mt-3">Illustrator</p>
-                                </Col>
-                                <Col xs="12" lg="2">
-                                    <p className="header-text text-center mt-3">Photoshop</p>
-                                </Col>
-                                <Col xs="12" lg="2">
                                     <p className="header-text text-center mt-3">Adobe XD</p>
                                 </Col>
                                 <Col xs="12" lg="2">
                                     <p className="header-text text-center mt-3">Figma</p>
+                                </Col>
+                                <Col xs="12" lg="2">
+                                    <p className="header-text text-center mt-3">Illustrator</p>
+                                </Col>
+                                <Col xs="12" lg="2">
+                                    <p className="header-text text-center mt-3">Photoshop</p>
                                 </Col>
                                 <Col xs="12" lg="2">
                                     <p className="header-text text-center mt-3">Corel Draw</p>
@@ -156,12 +156,12 @@ export default function Skills() {
                                 </Col> 
                                 <Col xs="6" md="2">
                                     <div className="skills mt-3 mt-md-0">
-                                        <img src="img/firebase.svg" className="img-fluid text-center" alt="firebase" /> 
+                                        <img src="img/firebase.svg" className="img-fluid text-center" style={{width:"60%"}} alt="firebase" /> 
                                     </div>
                                 </Col>
                                 <Col xs="6" md="2">
                                     <div className="skills mt-3 mt-md-0">
-                                        <img src="img/dynamodb.svg" height="80%" className="img-fluid text-center lg-svg" alt="dynamodb" /> 
+                                        <img src="img/dynamodb.svg" height="80%" className="img-fluid text-center" style={{width:"60%"}} alt="dynamodb" /> 
                                     </div>
                                 </Col> 
                             </Row>

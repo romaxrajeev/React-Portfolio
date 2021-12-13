@@ -349,38 +349,8 @@ label{
     
             a{
                 z-index: 100;
+                color: $white !important;
             }
-        }
-    
-        .social-icon.background::before{
-            content: '';
-            position: absolute;
-            top: 0;
-            bottom: 0;
-            left: 0;
-            right: 0;
-            height: 10vh;
-            width: 10vh;
-            border-radius: 50%;
-            background-color: $white;
-            z-index: 0;
-            margin-left: 1em;
-            margin-right: 1em;
-            transform: scaleX(0);
-            transition: transform 300ms ease-in-out;
-        }
-    
-        .social-icon.background:hover::before{
-            transform: scaleX(1);
-        }
-    
-        .social-icon.background > a{
-            color: $white;
-            transition: color 300ms ease-in-out;
-        }
-    
-        .social-icon.background:hover > a{
-            color: $very-dark-grey;
         }
     }
     

@@ -429,43 +429,7 @@ label {
 
 .social-icons .social .social-icon a {
   z-index: 100;
-}
-
-.social-icons .social .social-icon.background::before {
-  content: '';
-  position: absolute;
-  top: 0;
-  bottom: 0;
-  left: 0;
-  right: 0;
-  height: 10vh;
-  width: 10vh;
-  border-radius: 50%;
-  background-color: #fefefe;
-  z-index: 0;
-  margin-left: 1em;
-  margin-right: 1em;
-  -webkit-transform: scaleX(0);
-          transform: scaleX(0);
-  -webkit-transition: -webkit-transform 300ms ease-in-out;
-  transition: -webkit-transform 300ms ease-in-out;
-  transition: transform 300ms ease-in-out;
-  transition: transform 300ms ease-in-out, -webkit-transform 300ms ease-in-out;
-}
-
-.social-icons .social .social-icon.background:hover::before {
-  -webkit-transform: scaleX(1);
-          transform: scaleX(1);
-}
-
-.social-icons .social .social-icon.background > a {
-  color: #fefefe;
-  -webkit-transition: color 300ms ease-in-out;
-  transition: color 300ms ease-in-out;
-}
-
-.social-icons .social .social-icon.background:hover > a {
-  color: #2a2a2a;
+  color: #fefefe !important;
 }
 
 .footer {
