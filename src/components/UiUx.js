@@ -23,11 +23,9 @@ export default function UiUx(){
                 <Col xs ="12" lg="6" />
             </Row>
             </Slide>
-            <Slide bottom>
             <Row className="mt-3">
                 {UIImages}
             </Row>
-            </Slide>
         </div>
     )
 }

@@ -23,13 +23,11 @@ export default function Development() {
                 <Col xs ="12" lg="6" />
             </Row>
             </Slide>
-            <Slide bottom>
             <Row className="mt-3">
                 <Col xs="12">
                     {DEV}
                 </Col>
             </Row>
-            </Slide>
         </div>
     )
 }
