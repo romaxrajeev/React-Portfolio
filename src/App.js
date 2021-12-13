@@ -6,6 +6,7 @@ import { BrowserRouter } from 'react-router-dom';
 import Footer from './components/Footer';
 import Home from './components/Home';
 import {GridLoader} from 'react-spinners'
+import Bounce from 'react-reveal';
 
 export default function App() {
 

@@ -4,12 +4,14 @@ import React from "react";
 import { Row, Col } from "reactstrap";
 import ThreeLines from "./ThreeLines";
 import FlowButton from "./FlowButton";
+import { Slide } from "react-reveal";
 
 export default function Header(){
     return(
         <React.Fragment>
             <Row style={{minHeight:"85vh"}}>
                 <Col xs ="12" xl="6" className="order-last order-xl-first">
+                    <Slide bottom>
                     <div className="header-heading text-center text-xl-left">
                         Self-Taught UI/UX Designer & Developer
                     </div>
@@ -24,9 +26,12 @@ export default function Header(){
                         <FlowButton name="Check out UI / UX Projects" link="uiux" />&emsp;
                         <FlowButton name="Check out Development Projects" link="dev" />
                     </div>
+                    </Slide>
                 </Col>
                 <Col xs ="12" xl="6" className="order-first order-xl-last">
+                    <Slide bottom>
                         <img src="/img/illustration.svg" className="img-fluid main-img" alt="UX Designer" />
+                    </Slide>
                 </Col>
             </Row>
         </React.Fragment>

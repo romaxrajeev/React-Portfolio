@@ -3,6 +3,7 @@ import '../styles/styles.css';
 import {Row, Col} from 'reactstrap';
 import RenderOther from './RenderOther';
 import ScrollToTop from 'react-scroll-to-top';
+import { Slide } from 'react-reveal';
 
 export default class Accordion extends Component{
 
@@ -46,6 +47,7 @@ export default class Accordion extends Component{
         return(
             <React.Fragment>
                 <ScrollToTop smooth />
+                <Slide bottom>
                 <Row className="mb-5">
                    <Col xs="12" sm="6" md="3">
                        <ul id="works-accordion">
@@ -68,6 +70,7 @@ export default class Accordion extends Component{
                        </ul>
                    </Col>
                 </Row>
+                </Slide>
             </React.Fragment>
         );
         }

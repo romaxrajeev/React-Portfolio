@@ -1,10 +1,12 @@
 import React from "react";
+import { Slide } from "react-reveal";
 import { Row, Col } from "reactstrap";
 import ThreeLines from "./ThreeLines";
 
 export default function Skills() {
     return(
         <div className="mt-2">
+            <Slide bottom>
             <Row className="mt-5" id="about">
                 <Col xs ="12">
                     <div className="heading">
@@ -14,8 +16,11 @@ export default function Skills() {
                 </Col>
                 <Col xs ="12" lg="6" />
             </Row>
+            </Slide>
+        
             <Row className="mt-3">
                 <Col xs="12">
+                    <Slide bottom>
                     <div className="header-text mt-2">UI / UX and Graphic Design Tools</div>
                     <Row className="skills-container mt-3 mb-3 pt-5 pb-2 pr-3 pl-3 pl-3 pr-3">
                         <Col xs="12">
@@ -71,7 +76,8 @@ export default function Skills() {
                             </Row>
                         </Col>
                     </Row>
-
+                    </Slide>
+                    <Slide bottom>
                     <div className="header-text mt-5">Front-End Development</div>
                     <Row className="skills-container mt-3 mb-3 pt-5 pb-2 pr-3 pl-3">
                         <Col xs="12">
@@ -131,7 +137,8 @@ export default function Skills() {
                         
                         
                     </Row>
-
+                    </Slide>
+                    <Slide bottom>
                     <div className="header-text mt-5">Back-End Development</div>
                     <Row className="skills-container mt-3 mb-3 pt-5 pb-2 pr-3 pl-3 ">
                         <Col xs="12">
@@ -187,6 +194,7 @@ export default function Skills() {
                             </Row>
                         </Col> 
                     </Row>
+                    </Slide>
                 </Col>
             </Row>
         </div>
