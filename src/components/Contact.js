@@ -52,36 +52,36 @@ export default function Contact() {
                     <div className="heading">
                         Social Profiles
                     </div>
-                    <Row className="social-icons mt-4">
-                        <Col className="social mt-2 mt-xl-0" xs="3" lg="2">
+                    <Row className="social-icons mt-4 mr-auto">
+                        <Col className="social mt-2 mt-xl-0" xs="4" lg="2">
                             <div className="social-icon background">
                                     <a href="https://dribbble.com/desmaxdesigns" target="_blank" rel="noreferrer">
                                         <FontAwesomeIcon icon={faDribbble} size="2x" />
                                     </a>
                             </div>
                         </Col>
-                        <Col className="social mt-2 mt-xl-0" xs="3" lg="2">
+                        <Col className="social mt-2 mt-xl-0" xs="4" lg="2">
                             <div className="social-icon background">
                                 <a href="https://www.instagram.com/desmax_designs/" target="_blank" rel="noreferrer">
                                     <FontAwesomeIcon icon={faInstagram} size="2x" />
                                 </a>
                             </div>
                         </Col>
-                        <Col className="social mt-2 mt-xl-0" xs="3" lg="2">
+                        <Col className="social mt-2 mt-xl-0" xs="4" lg="2">
                             <div className="social-icon background">
                             <   a href="https://www.linkedin.com/in/romax-rajeev/" target="_blank" rel="noreferrer">
                                     <FontAwesomeIcon icon={faLinkedinIn} size="2x" />
                                 </a>
                             </div>
                         </Col>
-                        <Col className="social mt-2 mt-xl-0" xs="3" lg="2">
+                        <Col className="social mt-2 mt-xl-0" xs="4" lg="2">
                             <div className="social-icon background">
                                 <a href="https://github.com/romeo611199" target="_blank" rel="noreferrer">
                                     <FontAwesomeIcon icon={faGithub} size="2x" />
                                 </a>
                             </div>
                         </Col>
-                        <Col className="social mt-2 mt-xl-0" xs="3" lg="2">
+                        <Col className="social mt-2 mt-xl-0" xs="4" lg="2">
                             <div className="social-icon background">
                                 <a href="mailto:romaxakrajeev@gmail.com" target="_blank" rel="noreferrer">
                                     <FontAwesomeIcon icon={faEnvelopeSquare} size="2x" />
