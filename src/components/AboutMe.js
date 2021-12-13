@@ -1,12 +1,10 @@
 import React from "react";
-import { Slide } from "react-reveal";
 import { Row, Col } from "reactstrap";
 import ThreeLines from "./ThreeLines";
 
 export default function AboutMe() {
     return(
         <div className="mt-2">
-            <Slide bottom>
             <Row className="mt-5" id="about">
                 <Col xs ="12">
                     <div className="heading">
@@ -16,8 +14,6 @@ export default function AboutMe() {
                 </Col>
                 <Col xs ="12" lg="6" />
             </Row>
-            </Slide>
-            <Slide bottom>
             <Row className="mt-3">
                 <Col xs="12" lg="6">
                     <div className="header-text mt-4">
@@ -37,7 +33,6 @@ export default function AboutMe() {
                     {/* <CircleImage /> */}
                 </Col>
             </Row>
-            </Slide>
         </div>
     )
 }

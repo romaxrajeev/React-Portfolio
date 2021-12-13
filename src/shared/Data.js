@@ -128,7 +128,7 @@ export const UIUX = {
     "projects" : [
         {
             "id" : 1,
-            "name" : "Shoptacle Website UI/UX Project",
+            "name" : "Shoptacle - UI Project",
             "image" : "img/ui/projects/Shoptacle.png",
             "overview" : "Shoptacle is a E-Commerce Website that lets people buy dresses, accessories and shoes, and has attractive discounts. Women are their major customer base.",
             "problem" : "E-Commerce Websites are sometimes very cluttered. Users find it difficult to navigate through the websites. They find it difficult to search for products they need, and end up buying something else.",
@@ -136,7 +136,7 @@ export const UIUX = {
         },
         {
             "id" : 2,
-            "name" : "Classroom App UI/UX Project",
+            "name" : "Classroom - UX Case Study",
             "image" : "img/ui/projects/Classroom.png",
             "overview" : "Classroom Apps are a go-to place for teachers and students to collaborate on notes, assignments and even tests.",
             "problem" : "Classroom App was bit too complicated for new students and teachers, who were new to this. To navigate to simple options like to attend a class, or check timetable was tedious.",
@@ -144,7 +144,7 @@ export const UIUX = {
         },
         {
             "id" : 3,
-            "name" : "Weather App UI Design",
+            "name" : "Weather App - UI Design",
             "image" : "img/ui/projects/WeatherApp.png",
             "overview" : "Weather App will retrieve location of the user, and provide accurate weather statistics, with more focus on relevant stats.",
             "problem" : "Weather Applications sometimes have too many statistics and gives no idea as to which information is actually relevant to the user.",
@@ -152,7 +152,7 @@ export const UIUX = {
         },
         {
             "id" : 4,
-            "name" : "Home Automation UI/UX Project",
+            "name" : "Home Automation - UI Project",
             "image" : "img/ui/projects/HomeAutomation.png",
             "overview" : "Home Automation App allows users to control electrical and electronic devices in their residences through their smartphone.",
             "problem" : "Users have a lot of options on their screen, which makes them confused as in which option to select. There is no grouping of devices for each room.",
@@ -160,7 +160,7 @@ export const UIUX = {
         },
         {
             "id" : 5,
-            "name" : "Flight Status UI Case Study",
+            "name" : "Flight Status - UX Case Study",
             "image" : "img/ui/projects/FlightDelay.png",
             "overview" : "Flight Status provides status of the flights for a particular day in the current week. User can make appropriate decisions if the flight is delayed or cancelled.",
             "problem" : "Current Flight Status do not provide users any alternative flights in case of delays or cancellations.",
@@ -168,7 +168,7 @@ export const UIUX = {
         },
         {
             "id" : 6,
-            "name" : "Expense Tracker UI/UX Project",
+            "name" : "Expense Tracker - UI Project",
             "image" : "img/ui/projects/ExpenseTracker.png",
             "overview" : "Expense Tracker App allows users to set financial goals and visualize savings and expenditures over months.",
             "problem" : "Expense Tracking Apps have a lot of charts, which makes most of the users confused. There are a lot of elements, and right chart type is not used.",

@@ -3,13 +3,11 @@ import { Row, Col } from "reactstrap";
 import ThreeLines from "./ThreeLines";
 import UiUxImage from "./UiUxImage";
 import {UIUX} from "../shared/Data";
-import { Slide } from "react-reveal";
 
 export default function UiUx(){
     const UIImages = UIUX.projects.map( (work) => <UiUxImage work={work} key={work.id} /> )
     return (
         <div className="mt-3">
-            <Slide bottom>
             <Row className="mt-5" id="uiux">
                 <Col xs ="12">
                     <div className="heading">
@@ -22,7 +20,6 @@ export default function UiUx(){
                 </Col>
                 <Col xs ="12" lg="6" />
             </Row>
-            </Slide>
             <Row className="mt-3">
                 {UIImages}
             </Row>

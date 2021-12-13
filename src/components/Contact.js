@@ -5,14 +5,12 @@ import {APIKEY} from '../shared/APIKey';
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faDribbble, faGithub, faInstagram, faLinkedinIn } from "@fortawesome/free-brands-svg-icons";
 import { faEnvelopeSquare } from "@fortawesome/free-solid-svg-icons";
-import { Slide } from "react-reveal";
 
 export default function Contact() {
     return(
         <div className="mt-2">
             <Row className="mt-5" id="contact">
                 <Col xs="12" xl="5">
-                    <Slide bottom>
                     <div className="heading">
                         Contact Me
                     </div>
@@ -48,11 +46,9 @@ export default function Contact() {
                                 </button>
                             </div>
                         </form>
-                        </Slide>
                 </Col>
                 <Col xs="12" xl="1"></Col>
                 <Col xs ="12" xl="6" className="mt-4 mt-xl-0">
-                    <Slide bottom>
                     <div className="heading">
                         Social Profiles
                     </div>
@@ -94,7 +90,6 @@ export default function Contact() {
                         </Col>
                                         
                     </Row>
-                    </Slide>
                 </Col>
             </Row>
         </div>
