@@ -7,14 +7,14 @@ import ThreeLines from "./ThreeLines";
 export default function OtherDesigns(){
     return (
         <React.Fragment>
-            <Row className="mt-5" id="other-designs"> 
+            <Row style={{marginTop:"8%"}} id="other-designs"> 
                 <Col xs ="12">
                     <div className="heading">
                         Other Designs
                     </div>
                     <ThreeLines />
                     <div className="header-text mt-4">
-                        This includes Logo Designs and some Poster Designs for clients and personal projects.
+                        This includes Logo Designs and some Poster Designs for clients and personal projects. Hover on each card to know more.
                     </div>
                 </Col>
                 <Col xs ="12" lg="6" />

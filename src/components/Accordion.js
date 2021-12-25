@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import '../styles/styles.css';
 import {Row, Col} from 'reactstrap';
 import RenderOther from './RenderOther';
-import ScrollToTop from 'react-scroll-to-top';
+
 
 export default class Accordion extends Component{
 
@@ -45,7 +45,6 @@ export default class Accordion extends Component{
         });
         return(
             <React.Fragment>
-                <ScrollToTop smooth />
                 <Row className="mb-5">
                    <Col xs="12" sm="6" md="3">
 

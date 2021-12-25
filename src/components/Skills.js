@@ -4,9 +4,9 @@ import ThreeLines from "./ThreeLines";
 
 export default function Skills() {
     return(
-        <div className="mt-2">
+        <div style={{marginTop:"8%"}}>
             <Row className="mt-5" id="about">
-                <Col xs ="12">
+                <Col xs="12">
                     <div className="heading">
                         Skills
                     </div>
@@ -22,27 +22,27 @@ export default function Skills() {
                             <Row className="pb-3 skills">
                                 <Col xs="6" md="2">
                                     <div className="skills mt-md-0">
-                                        <img src="img/adobexd.svg" className="img-fluid text-center" alt="adobexd" />
+                                        <img src="img/adobexd.svg" className="img-fluid svg text-center" alt="adobexd" />
                                     </div>
                                 </Col> 
                                 <Col xs="6" md="2">
                                     <div className="skills mt-md-0">
-                                        <img src="img/figma.svg" className="img-fluid text-center" alt="figma" />
+                                        <img src="img/figma.svg" className="img-fluid svg text-center" alt="figma" />
                                     </div>
                                 </Col> 
                                 <Col xs="6" md="2">
                                     <div className="skills mt-3 mt-md-0">
-                                        <img src="img/illustrator.svg" className="img-fluid text-center" alt="illustrator" />
+                                        <img src="img/illustrator.svg" className="img-fluid svg text-center" alt="illustrator" />
                                     </div>
                                 </Col> 
                                 <Col xs="6" md="2">
                                     <div className="skills mt-3 mt-md-0">
-                                        <img src="img/photoshop.svg" className="img-fluid text-center" alt="photoshop" />
+                                        <img src="img/photoshop.svg" className="img-fluid svg text-center" alt="photoshop" />
                                     </div>
                                 </Col> 
                                 <Col xs="6" md="2">
                                     <div className="skills mt-3 mt-md-0">
-                                        <img src="img/corel.svg" className="img-fluid text-center" alt="corel draw" /> 
+                                        <img src="img/corel.svg" className="img-fluid svg text-center" alt="corel draw" /> 
                                     </div>
                                 </Col>
                                 <Col xs="6" md="2">
@@ -78,32 +78,32 @@ export default function Skills() {
                             <Row className="pb-3 skills">
                                 <Col xs="6" md="2">
                                     <div className="skills">
-                                        <img src="img/html5.svg" className="img-fluid text-center" alt="HTML5" />
+                                        <img src="img/html5.svg" className="img-fluid svg text-center" alt="HTML5" />
                                     </div>
                                 </Col> 
                                 <Col xs="6" md="2">
                                     <div className="skills">
-                                        <img src="img/css3.svg" className="img-fluid text-center" alt="CSS3" />
+                                        <img src="img/css3.svg" className="img-fluid svg text-center" alt="CSS3" />
                                     </div>
                                 </Col> 
                                 <Col xs="6" md="2">
                                     <div className="skills mt-3 mt-md-0">
-                                        <img src="img/js.svg" className="img-fluid text-center" alt="JS" />
+                                        <img src="img/js.svg" className="img-fluid svg text-center" alt="JS" />
                                     </div>
                                 </Col> 
                                 <Col xs="6" md="2">
                                     <div className="skills mt-3 mt-md-0">
-                                        <img src="img/react.svg" className="img-fluid text-center" alt="React" />
+                                        <img src="img/react.svg" className="img-fluid svg text-center" alt="React" />
                                     </div>
                                 </Col> 
                                 <Col xs="6" md="2">
                                     <div className="skills mt-3 mt-md-0">
-                                        <img src="img/bootstrap.svg" className="img-fluid text-center" alt="Bootstrap" /> 
+                                        <img src="img/bootstrap.svg" className="img-fluid svg text-center" alt="Bootstrap" /> 
                                     </div>
                                 </Col>
                                 <Col xs="6" md="2">
                                     <div className="skills mt-3 mt-md-0">
-                                        <img src="img/sass.svg" className="img-fluid text-center" alt="Bootstrap" /> 
+                                        <img src="img/sass.svg" className="img-fluid svg text-center" alt="Bootstrap" /> 
                                     </div>
                                 </Col> 
                             </Row>
@@ -137,31 +137,33 @@ export default function Skills() {
                         <Col xs="12">
                             <Row className="pb-3 skills">
                                 <Col xs="6" md="2">
-                                    <img src="img/php.svg" className="img-fluid" alt="php" />
-                                </Col> 
+                                    <div className="skills">
+                                        <img src="img/php.svg" className="img-fluid svg text-center" alt="php" />
+                                    </div>
+                                </Col>
                                 <Col xs="6" md="2">
                                     <div className="skills">
-                                        <img src="img/flask.svg" className="img-fluid text-center" alt="flask" />
+                                        <img src="img/flask.svg" className="img-fluid svg text-center" alt="flask" />
                                     </div>
                                 </Col> 
                                 <Col xs="6" md="2">
                                     <div className="skills mt-3 mt-md-0">
-                                        <img src="img/mysql.svg" className="img-fluid text-center" alt="mysql" />
+                                        <img src="img/mysql.svg" className="img-fluid svg text-center" alt="mysql" />
                                     </div>
                                 </Col> 
                                 <Col xs="6" md="2">
                                     <div className="skills mt-3 mt-md-0">
-                                        <img src="img/lambda.svg" className="img-fluid text-center" alt="lambda" />
+                                        <img src="img/lambda.svg" className="img-fluid svg text-center" alt="lambda" />
                                     </div>
                                 </Col> 
                                 <Col xs="6" md="2">
                                     <div className="skills mt-3 mt-md-0">
-                                        <img src="img/firebase.svg" className="img-fluid text-center" style={{width:"60%"}} alt="firebase" /> 
+                                        <img src="img/firebase.svg" className="img-fluid svg text-center" style={{width:"60%"}} alt="firebase" /> 
                                     </div>
                                 </Col>
                                 <Col xs="6" md="2">
                                     <div className="skills mt-3 mt-md-0">
-                                        <img src="img/dynamodb.svg" height="80%" className="img-fluid text-center" style={{width:"60%"}} alt="dynamodb" /> 
+                                        <img src="img/dynamodb.svg" height="80%" className="img-fluid svg text-center" style={{width:"60%"}} alt="dynamodb" /> 
                                     </div>
                                 </Col> 
                             </Row>

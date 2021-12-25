@@ -5,7 +5,9 @@ function RenderOther({work}){
     return(
             <div className="mt-5 other-works" id={work.id}>
                 <li>
-                    <h2><img src={work.image} className="img-fluid m-auto work-image" height="300px" width="300px" alt={work.name} /></h2>
+                    <div className="other-img">
+                    <img src={work.image} className="img-fluid work-image" height="300px" width="300px" alt={work.name} />
+                    </div>
                     <div className="details">
                         <div className="other-title">{work.name}</div>
                         <div className="other-desc">{work.desc}</div>

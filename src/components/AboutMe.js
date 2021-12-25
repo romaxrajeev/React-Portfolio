@@ -4,7 +4,7 @@ import ThreeLines from "./ThreeLines";
 
 export default function AboutMe() {
     return(
-        <div className="mt-2">
+        <div style={{marginTop:"8%"}}>
             <Row className="mt-5" id="about">
                 <Col xs ="12">
                     <div className="heading">

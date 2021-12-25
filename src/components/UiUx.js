@@ -7,7 +7,7 @@ import {UIUX} from "../shared/Data";
 export default function UiUx(){
     const UIImages = UIUX.projects.map( (work) => <UiUxImage work={work} key={work.id} /> )
     return (
-        <div className="mt-3">
+        <div className="mt-5">
             <Row className="mt-5" id="uiux">
                 <Col xs ="12">
                     <div className="heading">
@@ -15,7 +15,7 @@ export default function UiUx(){
                     </div>
                     <ThreeLines />
                     <div className="header-text mt-4">
-                        Read case studies, thought process and designing the solution for every problem.
+                        Read case studies, thought process and designing the solution for every problem. Hover on each card to know more.
                     </div>
                 </Col>
                 <Col xs ="12" lg="6" />

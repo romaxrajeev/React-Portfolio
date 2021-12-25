@@ -80,7 +80,7 @@ export const PROJECTS = [
         "image" : "img/projects/neumorphism.png",
         "desc" : "A lightweight neumorphism implementation with CSS and JS. It supports both light mode and dark mode.",
         "techStack" : "CSS, JS and jQuery",
-        "button1" : {"link":"https://github.com/romeo611199/neumorphism-css","type":"Check out on Github"}
+        "button1" : {"link":"https://github.com/romaxrajeev/neumorphism-css","type":"Check out on Github"}
     },
     {
         "id" : 2,
@@ -96,7 +96,7 @@ export const PROJECTS = [
         "image" : "img/projects/financier.png",
         "desc" : "Financier - a Finance application, which can be used to track user's financial goals, track their progress and help them save money each month.",
         "techStack" : "HTML, CSS, JS, Flask and Firebase",
-        "button1" : {"link":"https://github.com/romeo611199/Finance","type":"Check out on Github"}
+        "button1" : {"link":"https://github.com/romaxrajeev/Finance","type":"Check out on Github"}
     },
     {
         "id" : 4,
@@ -112,7 +112,7 @@ export const PROJECTS = [
         "image" : "img/projects/msp.png",
         "desc" : "Semester 6 Project which predicts the performance of a Bollywood movie based on past data, and also with Youtube statistics for trailer videos.",
         "techStack" : "HTML, CSS, JS, Flask, Python and Scikit-Learn",
-        "button1" : {"link":"https://github.com/romeo611199/movie-success-prediction-data-mining/","type":"Check out on Github"}
+        "button1" : {"link":"https://github.com/romaxrajeev/movie-success-prediction-data-mining/","type":"Check out on Github"}
     },
     {
         "id" : 6,
@@ -120,7 +120,7 @@ export const PROJECTS = [
         "image" : "img/projects/ask.png",
         "desc" : "An E-Portfolio for students of Pillai College of Engineering to showcase their skills, experiences, projects like a digital resume.",
         "techStack" : "HTML, CSS, JS, Flask",
-        "button1" : {"link":"https://github.com/romeo611199/ask-cv-portfolio.github.io","type":"Check out on Github"}
+        "button1" : {"link":"https://github.com/romaxrajeev/ask-cv-portfolio.github.io","type":"Check out on Github"}
     }
 ]
 
@@ -128,51 +128,38 @@ export const UIUX = {
     "projects" : [
         {
             "id" : 1,
-            "name" : "Shoptacle - UI Project",
-            "image" : "img/ui/projects/Shoptacle.png",
-            "overview" : "Shoptacle is a E-Commerce Website that lets people buy dresses, accessories and shoes, and has attractive discounts. Women are their major customer base.",
-            "problem" : "E-Commerce Websites are sometimes very cluttered. Users find it difficult to navigate through the websites. They find it difficult to search for products they need, and end up buying something else.",
-            "solution" : "Users will be able to select the category right from the home page. For showing deals from all the categories, a separate section would be created."
+            "name" : "Classroom - UX Case Study",
+            "image" : "img/ui/projects/Classroom.png",
+            "drive" : "https://drive.google.com/file/d/1H7uYarrUu9QVMEUGFOxX5-AhPEKAWgF6/view?usp=sharing"            
         },
         {
             "id" : 2,
-            "name" : "Classroom - UX Case Study",
-            "image" : "img/ui/projects/Classroom.png",
-            "overview" : "Classroom Apps are a go-to place for teachers and students to collaborate on notes, assignments and even tests.",
-            "problem" : "Classroom App was bit too complicated for new students and teachers, who were new to this. To navigate to simple options like to attend a class, or check timetable was tedious.",
-            "solution" : "Students will be able to view their timetable and directly join lectures. Teachers would also find it easy to schedule lectures in calenders."
+            "name" : "Weather App - UI Design",
+            "image" : "img/ui/projects/WeatherApp.png",
+            "drive" : "https://dribbble.com/shots/15031363-Weather-App-UI-Design"
         },
         {
             "id" : 3,
-            "name" : "Weather App - UI Design",
-            "image" : "img/ui/projects/WeatherApp.png",
-            "overview" : "Weather App will retrieve location of the user, and provide accurate weather statistics, with more focus on relevant stats.",
-            "problem" : "Weather Applications sometimes have too many statistics and gives no idea as to which information is actually relevant to the user.",
-            "solution" : "Users will be able to view the weather directly without having to set location, and gives relevant information at the front."
+            "name" : "Home Automation - UI Project",
+            "image" : "img/ui/projects/HomeAutomation.png",
+            "drive" : "https://drive.google.com/file/d/1SJD-kkS9ci48puU6CTj8ONKhN-0goK3G/view?usp=sharing"
         },
         {
             "id" : 4,
-            "name" : "Home Automation - UI Project",
-            "image" : "img/ui/projects/HomeAutomation.png",
-            "overview" : "Home Automation App allows users to control electrical and electronic devices in their residences through their smartphone.",
-            "problem" : "Users have a lot of options on their screen, which makes them confused as in which option to select. There is no grouping of devices for each room.",
-            "solution" : "Users can group devices by rooms, set automatic scenes based on time and location data and personalize the app."
+            "name" : "Flight Status - UX Case Study",
+            "image" : "img/ui/projects/FlightDelay.png",
+            "drive" : "https://dribbble.com/shots/15595706-Flight-Delay-UI-Design"
         },
         {
             "id" : 5,
-            "name" : "Flight Status - UX Case Study",
-            "image" : "img/ui/projects/FlightDelay.png",
-            "overview" : "Flight Status provides status of the flights for a particular day in the current week. User can make appropriate decisions if the flight is delayed or cancelled.",
-            "problem" : "Current Flight Status do not provide users any alternative flights in case of delays or cancellations.",
-            "solution" : "Users can search for flights for a particular day. They will also get alternatives and option to stick to previous schedule or choose the alternative."
+            "name" : "Expense Tracker - UI Project",
+            "image" : "img/ui/projects/ExpenseTracker.png",
+            "drive" : "https://drive.google.com/file/d/1H5d8TC-R7UMiHpw47SJ33pbPOmLMErFb/view?usp=sharing"
         },
         {
             "id" : 6,
-            "name" : "Expense Tracker - UI Project",
-            "image" : "img/ui/projects/ExpenseTracker.png",
-            "overview" : "Expense Tracker App allows users to set financial goals and visualize savings and expenditures over months.",
-            "problem" : "Expense Tracking Apps have a lot of charts, which makes most of the users confused. There are a lot of elements, and right chart type is not used.",
-            "solution" : "Users will be able to visualize effectively their savings, expenditure over months, and also how close they are to their financial goals."
+            "name" : "OneStop Food Delivery",
+            "image" : "img/ui/projects/OneStop.png"
         }
 
     ]

@@ -19,7 +19,7 @@ export default class NavBar extends Component{
 
     render(){
         return(
-            <Navbar expand="md" className="mt-3" light>
+            <Navbar expand="md" className="mt-3" dark>
                 <NavbarBrand href="/">
                    <img src="img/RomaxRajeev.svg" height="26px" width="200px" className="d-none d-lg-block" alt="Logo" />
                    <img src="img/RomaxRajeevIcon.svg" height="26px" width="26px" alt="Logo" className="d-block d-lg-none" />

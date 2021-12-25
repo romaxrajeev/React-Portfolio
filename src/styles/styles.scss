@@ -11,60 +11,70 @@ $regular: 700;
 $medium: 600;
 $light: 300;
 
+@mixin flex-center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 body{
     background-color: $background !important;
     font-family: $font !important;
 }
 
 .loading-container{
-    text-align: center;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    @include flex-center;
+    text-align: center;   
     width: 100%;
     height: 100vh;
 }
 
 .header-img{
-    width: 100vw;
+    width: 100%;
     height: 100vh;
     position: fixed;
     top: 0;
     left:0;
     z-index: -1;
     opacity: 0.3;
-    align-items: 'center';
-    justify-content: 'center';
 }
 
 .nav-link{
     font-weight: $regular;
-    font-size: 1.1em;
+    font-size: 1.1rem;
     color: $text-grey !important;
-    padding-left: 3em !important;
     cursor: pointer;
 }
 
-.main-img{
-    margin-top: 8vh;
+.main-header{
+    min-height: 50vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 100;
+    margin-bottom: 5vh !important;
 }
+
+// .main-img{
+//     margin-top: 8vh;
+// }
 
 .header-heading{
     color: $white;
     font-weight: $bold;
-    margin-top: 25vh;
-    font-size: 1.65em;
+    font-size: clamp(1.65rem,2vw,50rem);
 }
 
 .subheading-text{
     color: $white;
+    font-size: clamp(1rem,1.2vw,3rem);
     font-weight: $regular;
 }
 
 .header-text{
     color: $text-grey;
     font-weight: $regular;
-    font-size: 1.1em;
+    font-size: clamp(1.1rem,1.3vw,5rem);
 }
 
 .yellow{
@@ -81,26 +91,26 @@ body{
 
 .line-holder{
     display: flex;
-    height: 0.8vh;
-
+    height: 0.4vw;
     .line{
-        width: 7vh;
-        margin-right: 0.5em;
-        border-radius:  2em;
+        width: 4vw;
+        margin-right: 0.5rem;
+        border-radius:  2rem;
     }
 }
 
 .bordered-button{
     background-color: transparent !important;
-    padding: 1em 2em;
-    box-shadow: inset 0em 0em 0em 0.15em $white;
+    padding: 1rem 2rem;
+    box-shadow: inset 0rem 0rem 0rem 0.15rem $white;
     border: none;
     cursor: pointer;
     position: relative;
 }
 
 .buttons{
-    margin-left: 0em !important;
+    display: flex;
+    flex-direction: row;
 }
 
 .bordered-button.background-slide::before{
@@ -111,7 +121,7 @@ body{
     bottom: 0;
     left: 0;
     right: 0;
-    padding: 1.1em 2.1em;
+    padding: 1.1rem 2.1rem;
     transition: transform 500ms ease-in-out;
     transform: scaleX(0);
     transform-origin: left;
@@ -124,7 +134,7 @@ body{
 
 .bordered-button.background-slide{
     z-index: 100 !important;
-    font-size: 0.95em;
+    font-size: clamp(1rem,1.2vw,3rem);
     color: $white;
     font-weight: $bold;
     transition: color 300ms ease-in-out;
@@ -146,7 +156,7 @@ body{
 .heading{
     color: $white;
     font-weight: $bold;
-    font-size: 1.3em;
+    font-size: clamp(1.3rem,1.6vw,5rem);
 }
 
 .image-container{
@@ -161,27 +171,25 @@ body{
 }
 
 .image-overlay{
+    @include flex-center;
     position: absolute;
     top: 0;
     left: 0;
     width: 100%;
     height: 100%;
     background: rgba(30,30,30,0.9);
-    display: flex;
     flex-direction: column;
-    align-items: center;
-    justify-content: center;
     opacity: 0;
     transition:  opacity 300ms ease-in-out;
     cursor: pointer;
     .image-title{
-        font-size: 1.2em;
+        font-size: clamp(1.3rem,1.5vw,3rem);
         color: $white;
         font-weight: $bold;
     }
 
     .image-click{
-        font-size: 0.8em;
+        font-size: clamp(1rem,1.2vw,3rem);
         color: $text-grey;
         font-weight: $regular;
     }
@@ -201,26 +209,24 @@ body{
 }
 
 .projects{
-    display: flex;
+    @include flex-center;
     flex-direction: row;
-    align-items: center;
-    justify-content: center;
 }
 
 .project-title{
-    font-size: 1.3em;
+    font-size: clamp(1.3rem,1.5vw,3rem);
     color: $white;
     font-weight: $bold;
 }
 
 .project-desc{
-    font-size: 1em;
+    font-size: clamp(1rem,1.2vw,3rem);
     color: $text-grey;
     font-weight: $regular;
 }
 
 .techstack{
-    font-size: 1em;
+    font-size: clamp(1rem,1.2vw,3rem);
     color: $white;
     font-weight: $regular;
 }
@@ -245,33 +251,33 @@ body{
 #works-accordion .other-works:hover div.details{
     opacity: 1;
     height: fit-content;
-    padding: 1em 0.5em;
+    padding: 1rem 0.5rem;
 }
 
 .other-title{
     color: $white;
     font-weight: $bold;
-    font-size: 1.2em;
+    font-size: clamp(1.2rem,1.4vw,5rem);
     text-align: center;
 }
 
 .other-desc{
     color: $text-grey;
     font-family: $regular;
-    font-size: 1em;
+    font-size: clamp(1rem,1.2vw,3rem);
     text-align: center;
 }
 
 .other-works{
     background-color: rgba(30,30,30,0.6);
-    padding: 1em 1.5em;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+    padding: 1rem 1.5rem;
+    @include flex-center;
 }
 
-.other-works > img{
-    text-align: center;
+.other-img{
+    @include flex-center;
+    flex-direction: column;
+    padding: 1rem 1rem;
 }
 
 span.underline{
@@ -288,40 +294,29 @@ span.underline{
     }
 }
 
-.my-image{
-    display: flex;
-    justify-content: center;
-    text-align: center;
-    height: 75%;
-
-    .imgg{
-        height: inherit;
-    }
-}
-
 .skills{
-    display: flex;
-    align-items: center;
-    justify-content: center;
+    @include flex-center;
 }
 
 .skills-container{
     background-color: rgba(30,30,30,0.6);
 }
 
-.lg-svg{
-    height: 50% !important;
+.svg{
+    max-height: 156.25px;
+    text-align: center;
 }
 
 .input-field > input, .input-field > textarea{
     width: 100% !important;
-    padding: 0.8em;
-    padding-left: 1.5em;
+    padding: 0.8rem;
+    padding-left: 1.5rem;
     background-color: rgba(30,30,30,0.3);
     border: none;
-    box-shadow: inset 0em 0em 0em 0.15em rgba(254,254,254,0.8);
+    box-shadow: inset 0rem 0rem 0rem 0.15rem rgba(254,254,254,0.8);
     font-weight: $regular;
     color: $white;
+    font-size: clamp(1rem,1.2vw,3rem);
     ::placeholder{
         color: $text-grey;
     }
@@ -336,28 +331,25 @@ outline: none;
 label{
     color: $white;
     font-weight: $regular;
+    font-size: clamp(1.2rem,1.4vw,5rem);
 }
 
 .social-icons{
-    display: flex;
+    @include flex-center;
+    justify-content: left;
     flex-direction: row;
-    align-items: center;
-    padding: 1.5em;
-    padding-left: 0;
-    padding-top: 0;
+    padding: 0.5rem 0rem;
 
     .social{
         position: relative;
         .social-icon{
-            width: 10vh;
-            height: 10vh;
+            width: clamp(3.5rem,2vw,50rem);
+            height: clamp(3.5rem,2vw,50rem);
             border-radius: 50%;
             background-color: rgba(30,30,30,0.3);
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            margin-left: 1em;
-            margin-right: 1em;
+            @include flex-center;
+            margin-left: 1rem;
+            margin-right: 1rem;
     
             a{
                 color: $white;
@@ -368,26 +360,17 @@ label{
 }
 
 .footer{
-    width: 100vw;
-    background-color: $very-dark-grey;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    padding: 2em 1em;
+    background-color: rgba(42,42,42,0.9);
+    @include flex-center;
+    padding: 2rem 1rem;
     font-weight: $bold;
     color: $white;
-    margin-left: -12%;
+    font-size: clamp(1rem,1.2vw,3rem);
 }
 
 @media only screen and (max-width: 1200px)  {
-    .header-heading{
-        margin-top: 8vh;
-    }
-    
     .buttons{
-        display: flex;
-        align-items: center;
-        justify-content: center;
+        flex-direction: column;
     }
 
     .line-holder{
@@ -397,12 +380,19 @@ label{
 
         .line{
             width: 50vh;
-            border-radius:  2em;
+            border-radius:  2rem;
         }
     }
 
+    .social-icons{
+        justify-content: center;
+        .social{
+            padding: 0.2rem;
+            
     .social-icon{
-        width: 10vw;
-        height: 10vw;
+        margin-left: 0.5rem;
+        margin-right: 0.5rem;
+    }
+        }
     }
 }
